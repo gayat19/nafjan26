@@ -1,0 +1,8 @@
+
+
+Learn
+https://www.tutorialspoint.com/sql/sql-rdbms-concepts.htm
+
+Code
+https://leetcode.com/problems/two-sum/description/
+https://leetcode.com/problems/reverse-integer/description/
