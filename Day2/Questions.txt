@@ -1,0 +1,108 @@
+
+
+ Basic – SELECT / WHERE
+
+1. List all book titles from the `titles` table.
+
+2. Show only `title` and `price` from `titles`.
+
+3. Find all books where price is greater than 15.
+
+4. Display books whose `type` is `'business'`.
+
+5. Show all authors who live in `'CA'` (California).
+
+---
+
+ ORDER BY
+
+6. List all titles sorted by `price` ascending.
+
+7. Show titles sorted by `price` descending.
+
+8. Display authors sorted by `last name` A–Z.
+
+---
+
+ OFFSET / FETCH (Pagination)
+
+9. Show first 5 titles ordered by price.
+
+10. Skip first 5 titles and show next 5 titles ordered by price.
+
+11. Skip first 10 authors and show next 3 authors ordered by last name.
+
+---
+
+ GROUP BY
+
+12. Count how many books exist for each `type`.
+
+13. Find average price of books by `type`.
+
+14. Show total advance amount grouped by `type`.
+
+15. Count number of authors per `state`.
+
+---
+
+ HAVING
+
+16. Show book types that have more than 3 books.
+
+17. Show states having more than 2 authors.
+
+18. Display book types where average price is greater than 20.
+
+---
+
+ Mixed Practice
+
+19. Show top 5 most expensive books using `ORDER BY` + `OFFSET/FETCH`.
+
+20. List book types with total price greater than 100, sorted by total price descending.
+
+---
+
+Level -2 
+
+1.
+
+Show book types with their average price,
+only include types where average price is greater than 15,
+sort by average price descending,
+and display first 3 results only.
+
+2.
+
+Count how many books per type,
+include only types having more than 2 books,
+sort by count descending,
+skip first 1 and show next 2.
+
+3.
+
+From titles, show type and total advance,
+consider only books where price > 10,
+group by type,
+only show totals greater than 5000,
+sort by total advance descending,
+fetch top 5 using OFFSET/FETCH.
+
+4.
+
+From authors, show state and number of authors,
+filter only states starting with ‘C’,
+group by state,
+having count > 1,
+order alphabetically,
+skip first 1 and fetch next 3.
+
+5.
+
+From titles, display type and maximum price,
+consider only prices between 10 and 40,
+group by type,
+having max price greater than 25,
+order by max price descending,
+show first 4 rows using OFFSET/FETCH.
