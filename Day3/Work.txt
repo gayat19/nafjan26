@@ -1,0 +1,199 @@
+use northwind
+go
+
+select CategoryID from Categories
+where CategoryName = 'Produce'
+
+select * from Products
+where CategoryID = 7
+
+select * from Products
+where CategoryID = 
+(select CategoryID from Categories
+where CategoryName = 'Produce')
+
+Select * from [Order Details]
+where ProductID in(
+select ProductID from Products
+where CategoryID = 
+(select CategoryID from Categories
+where CategoryName = 'Produce'))
+
+select ContactName 'Customer name' from customers where customerid in
+
+(select distinct CustomerID from Orders where OrderID in
+(Select distinct OrderID from [Order Details]
+where ProductID in(
+select ProductID from Products
+where CategoryID = 
+(select CategoryID from Categories
+where CategoryName = 'Produce'))))
+
+select * from Suppliers
+
+
+select * from products where UnitPrice
+> all(select UnitPrice from Products where SupplierID = 
+(select SupplierID from Suppliers 
+where CompanyName = 'Tokyo Traders'))
+--or
+select * from products where UnitPrice
+> (select max(UnitPrice) from Products  where SupplierID = 
+(select SupplierID from Suppliers 
+where CompanyName = 'Tokyo Traders'))
+
+
+--cross join
+select * from Categories cross join Employees
+
+--inner join
+select categoryname, productname
+from Categories inner join
+Products
+on Categories.CategoryID = Products.CategoryID
+
+
+select * from Categories
+where CategoryID not in
+(select distinct CategoryID from Products)
+
+
+select * from Suppliers
+
+select companyname, productname
+from suppliers inner join products
+on Suppliers.SupplierID = Products.SupplierID
+
+--Print the orderid, productname, 
+--quantity purchased, purchase price
+Select orderid, productname, quantity,
+[Order Details].UnitPrice
+from Products inner join [Order Details]
+on Products.ProductID = [Order Details].ProductID
+--or
+Select orderid, productname, quantity,
+od.UnitPrice
+from Products p inner join [Order Details] od
+on p.ProductID = od.ProductID
+
+Select orderid,categoryname, productname, quantity,
+od.UnitPrice
+from Products p inner join [Order Details] od
+on p.ProductID = od.ProductID
+inner join Categories c
+on p.CategoryID = c.CategoryID
+
+Select orderid,categoryname, productname, quantity*
+od.UnitPrice amount
+from Products p inner join [Order Details] od
+on p.ProductID = od.ProductID
+inner join Categories c
+on p.CategoryID = c.CategoryID
+
+
+--product name total quantity ordered in all orders
+select productname, sum(Quantity) Total_Quantity_Ordered
+from [Order Details] od inner join Products p
+on p.ProductID = od.ProductID
+group by ProductName
+
+--Customer name and number of orders
+select contactname, count(orderid) NUmber_Of_orders
+from Orders o inner join customers c
+on o.CustomerID = c.CustomerID
+group by ContactName
+
+--print employee name and the 
+--total price of the orders taken
+select concat(Firstname,' ',LastName) Employee_Name,
+sum(UnitPrice*Quantity) Total_Amount
+from Employees e join Orders o
+on e.EmployeeId = o.EmployeeId
+join [Order Details] od
+on od.OrderID = o.OrderId
+group by concat(Firstname,' ',LastName)
+
+--Print the shipper name and teh average price of products 
+--shipper by each shipper
+
+select * from Orders
+select * from Shippers
+
+select CompanyName, avg(UnitPrice) Average_Price
+from Shippers s join Orders o
+on s.ShipperID = o.ShipVia
+join [Order Details] od
+on o.OrderID = od.OrderID
+group by CompanyName
+select * from Employees
+
+select * from Customers
+where CustomerID not in
+(select distinct customerid from orders)
+
+select companyname, orderdate from 
+Orders o right outer join Customers c
+on o.CustomerID = c.CustomerID
+
+--print the customer name, product name and 
+--the total number(as in quantity) purchased
+--If the customer has places no orders then print 0
+select ContactName, productname, 
+case when sum(Quantity) is null then 0
+else sum(Quantity) end  Sum_Of_Quantity
+from 
+Orders o right outer join Customers c
+on o.CustomerID = c.CustomerID
+left outer join [Order Details] od
+on o.OrderID = od.OrderID
+left outer join products p
+on od.ProductID = p.ProductID
+group by ContactName,ProductName
+
+
+select emp.EmployeeID Employee_Id, emp.FirstName Employee_name,
+rt.EmployeeId Manager_Id, rt.FirstName Manager_Name
+from Employees emp join Employees rt
+on emp.ReportsTo = rt.EmployeeID
+
+select emp.EmployeeID Employee_Id, emp.FirstName Employee_name,
+rt.EmployeeId Manager_Id, rt.FirstName Manager_Name
+from Employees emp left outer join Employees rt
+on emp.ReportsTo = rt.EmployeeID
+
+select emp.EmployeeID Employee_Id, emp.FirstName Employee_name,
+rt.EmployeeId Manager_Id, rt.FirstName Manager_Name
+from Employees emp full outer join Employees rt
+on emp.ReportsTo = rt.EmployeeID
+
+
+create procedure proc_HelloWorld
+as
+begin
+   print 'Hello World!!'
+end
+
+exec proc_HelloWorld
+
+
+create procedure proc_Greet(@uname varchar(50))
+as
+begin
+   print concat('Hello ',@uname)
+end
+
+exec proc_Greet 'Ramu'
+
+
+create procedure proc_GreetReturn
+(@uname varchar(50),
+@GMsg varchar(50) out)
+as
+begin
+   set @GMsg =  concat('Hello ',@uname)
+   print 'Done'
+end
+
+declare @rMsg varchar(50)
+exec proc_GreetReturn 'Somu', @rMsg out
+print @rMsg

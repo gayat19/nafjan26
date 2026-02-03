@@ -1,0 +1,95 @@
+JOINS (Basic to Intermediate)
+
+1. List all book titles with publisher name.
+
+2. Show authors and the titles of books they wrote.
+
+3. Display store name and order quantity from sales.
+
+4. Show title, price, and publisher city.
+
+5. List authors with their state and book title, sorted by author last name.
+
+6. Show titles and total quantity sold using sales table.
+
+7. List all publishers and number of books they published.
+
+GROUP BY + HAVING
+
+8. Find number of books per publisher, show only publishers with more than 3 books.
+
+9. Show average book price by type, only where average price > 20.
+
+10. Display total sales quantity per store, having quantity > 50.
+
+11. Count books per author, show only authors with more than 1 book.
+
+SUBQUERIES
+
+12. Find books with price greater than average book price.
+
+13. Show authors who live in the same state as publisher ‘Algodata Infosystems’.
+
+14. List titles whose advance is greater than the highest advance in business type.
+
+15. Find publishers who have published more books than the average publisher.
+
+MIXED (JOIN + GROUP BY + HAVING)
+
+16. Show publisher name and total sales quantity, only publishers with sales > 100.
+
+17. Display author name and total books written, sorted by book count descending.
+
+18. List store names and total sales amount, show top 5 highest stores.
+
+ADVANCED MIXED (JOIN + SUBQUERY + HAVING + ORDER)
+
+19. Show titles that have sold more than the average sales quantity of all titles.
+
+20. Find authors who wrote books priced above the overall average price, sorted by price descending.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+1.
+
+Find the top 3 publishers whose total sales amount is highest.
+
+Calculate sales using quantity × price.
+
+Only include publishers whose average book price is above overall average price.
+
+Sort by total sales descending.
+
+2.
+
+List authors who have written more books than the average number of books per author.
+
+Display author name and book count.
+
+Order by book count descending.
+
+3.
+
+Show book titles that generated sales greater than the average sales of their own book type.
+
+Display title, type, and total sales amount.
+
+Sort by total sales descending.
+
+4.
+
+Find stores that sold books from more than 2 different publishers.
+
+Show store name and number of publishers.
+
+Only include stores where total quantity sold is above the overall average quantity sold per store.
+
+Order by publisher count descending.
+
+5.
+
+Display publishers whose highest priced book is greater than the average of all maximum book prices per publisher.
+
+Show publisher name and max book price.
+
+Sort descending by max price.
