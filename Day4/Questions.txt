@@ -1,0 +1,142 @@
+
+When you implement these, your `ErrorLog` table typically stores:
+
+* `ErrorDateTime`
+* `ErrorNumber`
+
+
+
+
+ 15 practice questions (Stored Procedures)
+
+ A. Insert / Update with Parent checks + Transaction
+
+1. SP: Add new Title
+
+* IN: `@title_id, @title, @type, @pub_id, @price, @advance, @royalty, @ytd_sales`
+* Validate: `pub_id` exists in `publishers`
+* Use transaction, TRY/CATCH, log error to `ErrorLog`
+* OUT: `@StatusCode`, `@Message`
+
+2. SP: Update Title Price
+
+* IN: `@title_id, @new_price`
+* Validate: title exists, price > 0
+* Transaction + error logging
+* OUT: `@RowsAffected`, `@StatusCode`
+
+3. SP: Insert Author
+
+* IN: `@au_id, @au_fname, @au_lname, @phone, @city, @state, @zip`
+* Validate: `au_id` unique, `state` 2 chars
+* Transaction + log error
+* OUT: `@StatusCode`, `@Message`
+
+4. SP: Assign Author to Title (titleauthor)
+
+* IN: `@au_id, @title_id, @au_ord, @royaltyper`
+* Validate: author exists, title exists, `royaltyper` between 0 and 100
+* Transaction + log error
+* OUT: `@StatusCode`, `@Message`
+
+
+
+ B. Multistep Transactions (2–3 tables)
+
+5. SP: Create Title + RoySched (roysched) together
+
+* Step 1: insert into `titles`
+* Step 2: insert multiple rows into `roysched` (use a tablevalued parameter OR accept 3 slabs as params)
+* If ANY step fails → rollback
+* Log error
+* OUT: `@StatusCode`, `@Message`
+
+6. SP: Record a Sale
+
+* IN: `@stor_id, @ord_num, @ord_date, @title_id, @qty, @payterms`
+* Insert into `sales`
+* Validate: store exists, title exists, qty > 0
+* Transaction + log error
+* OUT: `@StatusCode`, `@Message`
+
+7. SP: Record Sale + Update YTD Sales in titles
+
+* Step 1: insert into `sales`
+* Step 2: update `titles.ytd_sales = ytd_sales + qty`
+* One transaction
+* Log error
+* OUT: `@NewYtdSales`, `@StatusCode`
+
+8. SP: Bulk price increase by type
+
+* IN: `@type, @percentIncrease`
+* Update all matching titles
+* Ensure percent is within safe bounds (ex: 0–25)
+* Transaction + log error
+* OUT: `@RowsAffected`, `@StatusCode`
+
+
+
+ C. Concurrency / Safety (still SP + transaction)
+
+9. SP: Update Title Price with optimistic rule
+
+* IN: `@title_id, @expectedOldPrice, @new_price`
+* Update only if current price = expected
+* Transaction, error logging
+* OUT: `@Updated` (bit), `@Message`
+
+10. SP: Prevent duplicate order
+
+* IN: `@stor_id, @ord_num, @title_id`
+* If same order already exists → do not insert, return message
+* Transaction + log error
+* OUT: `@StatusCode`, `@Message`
+
+
+
+ D. Reporting SPs using OUT params (and error logging)
+
+11. SP: Total sales qty for a title in date range
+
+* IN: `@title_id, @fromDate, @toDate`
+* OUT: `@TotalQty`, `@StatusCode`, `@Message`
+* If invalid title/date range → handle & log
+
+12. SP: Publisher revenue in date range
+
+* IN: `@pub_id, @fromDate, @toDate`
+* Compute revenue as `SUM(qty * price)` via joins (`sales` + `titles`)
+* OUT: `@Revenue`, `@StatusCode`
+* Transaction optional (readonly), but still do TRY/CATCH + log
+
+13. SP: Top N titles by sales qty
+
+* IN: `@TopN, @fromDate, @toDate`
+* Return result set + also OUT: `@TotalTitlesReturned`, `@StatusCode`
+* Error log on failure
+
+
+
+ E. Businessrule errors using THROW + logging
+
+14. SP: Insert RoySched slab
+
+* IN: `@title_id, @lorange, @hirange, @royalty`
+* Validate slab does not overlap existing slabs for that title
+* Transaction + log error
+* OUT: `@StatusCode`, `@Message`
+
+15. SP: Delete Title safely
+
+* IN: `@title_id`
+* Only allow delete if no references exist (e.g., no `sales`, no `titleauthor`, no `roysched`)
+* Transaction + log error
+* OUT: `@StatusCode`, `@Message`
+
+
+
+
+
+
+

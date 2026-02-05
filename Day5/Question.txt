@@ -1,0 +1,54 @@
+1) Create an application that will take 10 numbers from user and print the repeating numbers
+
+2) Create a application that will take numbers from user until the user enters a negative number and print the numbers that are divisible by 7
+
+3) Create an application that will take username and password from user and check if it is correct
+string [,] credentials = {
+{"Ramu","ramu123"},
+{"Somu","somu321"},
+{"Bimu","bimu111"}
+}
+If the user enters the incorrect credentials for 3 times exit the application. If success then show welcome with username
+
+
+4) Create a application that will take visa card number from user and check if it is valid
+Card number validation 
+
+1234 5678 9123 4567
+If above is the number then mark all the even position number and multiply them by 2
+1+4+3+8+5+12+7+16+9+2+2+6+4+10+6+14
+Now if the multiplied product is 2 digit number then sum it up like bellow
+1+4+3+8+5+3+7+7+9+2+2+6+4+1+6+5
+Sum them all
+73https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types
+https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/
+https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/declarations
+
+1) Create an application that will take 10 numbers from user and print the repeating numbers
+
+2) Create a application that will take numbers from user until the user enters a negative number and print the numbers that are divisible by 7
+
+3) Create an application that will take username and password from user and check if it is correct
+string [,] credentials = {
+{"Ramu","ramu123"},
+{"Somu","somu321"},
+{"Bimu","bimu111"}
+}
+If the user enters the incorrect credentials for 3 times exit the application. If success then show welcome with username
+
+
+4) Create a application that will take visa card number from user and check if it is valid
+Card number validation 
+
+1234 5678 9123 4567
+If above is the number then mark all the even position number and multiply them by 2
+1+4+3+8+5+12+7+16+9+2+2+6+4+10+6+14
+Now if the multiplied product is 2 digit number then sum it up like bellow
+1+4+3+8+5+3+7+7+9+2+2+6+4+1+6+5
+Sum them all
+73
+Mod by 10
+73%10
+If the result is 0 then it is a valid card
+
+
