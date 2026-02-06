@@ -1,0 +1,15 @@
+D:\Corp\Wintech\naf\2026\Participants\Day6\UnderstandingOopsSolution\UnderstandingOopsBasicApp\obj\Debug\net8.0\UnderstandingOopsBasicApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corp\Wintech\naf\2026\Participants\Day6\UnderstandingOopsSolution\UnderstandingOopsBasicApp\obj\Debug\net8.0\UnderstandingOopsBasicApp.AssemblyInfoInputs.cache
+D:\Corp\Wintech\naf\2026\Participants\Day6\UnderstandingOopsSolution\UnderstandingOopsBasicApp\obj\Debug\net8.0\UnderstandingOopsBasicApp.AssemblyInfo.cs
+D:\Corp\Wintech\naf\2026\Participants\Day6\UnderstandingOopsSolution\UnderstandingOopsBasicApp\obj\Debug\net8.0\UnderstandingOopsBasicApp.csproj.CoreCompileInputs.cache
+D:\Corp\Wintech\naf\2026\Participants\Day6\UnderstandingOopsSolution\UnderstandingOopsBasicApp\obj\Debug\net8.0\UnderstandingOopsBasicApp.sourcelink.json
+D:\Corp\Wintech\naf\2026\Participants\Day6\UnderstandingOopsSolution\UnderstandingOopsBasicApp\bin\Debug\net8.0\UnderstandingOopsBasicApp.exe
+D:\Corp\Wintech\naf\2026\Participants\Day6\UnderstandingOopsSolution\UnderstandingOopsBasicApp\bin\Debug\net8.0\UnderstandingOopsBasicApp.deps.json
+D:\Corp\Wintech\naf\2026\Participants\Day6\UnderstandingOopsSolution\UnderstandingOopsBasicApp\bin\Debug\net8.0\UnderstandingOopsBasicApp.runtimeconfig.json
+D:\Corp\Wintech\naf\2026\Participants\Day6\UnderstandingOopsSolution\UnderstandingOopsBasicApp\bin\Debug\net8.0\UnderstandingOopsBasicApp.dll
+D:\Corp\Wintech\naf\2026\Participants\Day6\UnderstandingOopsSolution\UnderstandingOopsBasicApp\bin\Debug\net8.0\UnderstandingOopsBasicApp.pdb
+D:\Corp\Wintech\naf\2026\Participants\Day6\UnderstandingOopsSolution\UnderstandingOopsBasicApp\obj\Debug\net8.0\UnderstandingOopsBasicApp.dll
+D:\Corp\Wintech\naf\2026\Participants\Day6\UnderstandingOopsSolution\UnderstandingOopsBasicApp\obj\Debug\net8.0\refint\UnderstandingOopsBasicApp.dll
+D:\Corp\Wintech\naf\2026\Participants\Day6\UnderstandingOopsSolution\UnderstandingOopsBasicApp\obj\Debug\net8.0\UnderstandingOopsBasicApp.pdb
+D:\Corp\Wintech\naf\2026\Participants\Day6\UnderstandingOopsSolution\UnderstandingOopsBasicApp\obj\Debug\net8.0\UnderstandingOopsBasicApp.genruntimeconfig.cache
+D:\Corp\Wintech\naf\2026\Participants\Day6\UnderstandingOopsSolution\UnderstandingOopsBasicApp\obj\Debug\net8.0\ref\UnderstandingOopsBasicApp.dll
