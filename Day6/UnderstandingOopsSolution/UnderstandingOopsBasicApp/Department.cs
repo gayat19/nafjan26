@@ -22,5 +22,9 @@ namespace UnderstandingOopsBasicApp
             Id = id;
             Name = name;
         }
+        public override string ToString()
+        {
+            return "Department Id: " + Id + "\nDepartment Name: " + Name;
+        }
     }
 }

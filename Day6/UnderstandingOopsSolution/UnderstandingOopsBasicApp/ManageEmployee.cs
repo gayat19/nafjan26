@@ -8,12 +8,13 @@ namespace UnderstandingOopsBasicApp
 {
     internal class ManageEmployee
     {
-        Employee employee;//creating the refference
+        object obj = new object();
+        protected Employee employee;//creating the refference
         public ManageEmployee()
         {
             employee = new Employee();//creating object for the reference
         }
-        public void CreateEmployee()
+        public virtual void CreateEmployee()
         {
             Console.WriteLine("Please enter the employee Id");
             int id;
@@ -39,14 +40,16 @@ namespace UnderstandingOopsBasicApp
             Console.WriteLine("Please enter the department name");
             employee.Department.Name = Console.ReadLine() ?? "Bench";
         }
-        public void DisplayEmployee()
+        public virtual void DisplayEmployee()
         {
+            Console.WriteLine("Manage employee Parent");
             Console.WriteLine($"Employee Id: {employee.Id}");
             Console.WriteLine($"Employee Name: {employee.Name}");
             Console.WriteLine($"Employee Date Of Birth: {employee.DateOfBirth}");
             Console.WriteLine($"Employee Salary: {employee.Salary}");
             Console.WriteLine($"Employee Department Id: {employee.Department.Id}");
             Console.WriteLine($"Employee Department Name: {employee.Department.Name}");
+            
         }
     }
 }

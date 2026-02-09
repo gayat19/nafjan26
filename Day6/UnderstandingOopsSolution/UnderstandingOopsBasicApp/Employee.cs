@@ -31,5 +31,10 @@ namespace UnderstandingOopsBasicApp
             DateOfBirth = dateOfBirth;
             Salary = salary;
         }
+   
+        public override string ToString()
+        {
+                return $"Employee Id: {Id}\nEmployee Name: {Name}\nEmployee Date Of Birth: {DateOfBirth}\nEmployee Salary: {Salary}\nEmployee Department Id: {Department.Id}\nEmployee Department Name: {Department.Name}";
+        }
     }
 }
