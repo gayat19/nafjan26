@@ -76,8 +76,9 @@ namespace UnderstandingOopsBasicApp
                 Console.WriteLine($"Employee with ID {employeeId} not found. Update failed.");
                 return false;
             }
-            if (employee == null)
+            if (employee != null)
             {
+                employee.Id = employeeId;
                 employees[oldEmployeeIndex] = employee??new Employee();
                 Console.WriteLine("Employee details updated");
                 return true;

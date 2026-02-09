@@ -1,34 +1,58 @@
 ﻿namespace UnderstandingOopsBasicApp
 {
-    class Student
-    {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        private int Age { get; set; }
-        protected string Remarks { get; set; }
-        public virtual void AssignValues()
-        {
-            Id = 100;
-            Name = "Alice";
-            Age = 20; // Accessible within the class
-        }
-    }
-    class LongDistanceStudent : Student
-    {
-        public int Duration { get; set; }
-            public override void AssignValues()
-            {
-                base.AssignValues();
-                Duration = 100;
-            }
-    }
+    
     internal class Program
     {
+        ManageEmployeeWithRepo manageEmployee = new ManageEmployeeWithRepo();
+
+        void PrintMenu()
+        {
+            Console.WriteLine("1. Add Employee");
+            Console.WriteLine("2. Display Employees");
+            Console.WriteLine("3. Display Employee by Id");
+            Console.WriteLine("4. Update Employee Details");
+            Console.WriteLine("5. Delete Employee");
+            Console.WriteLine("6. Exit");
+        }
+        void PerformAction()
+        {
+            int choice = 6;
+            do
+            {
+                PrintMenu();
+                while(!Int32.TryParse(Console.ReadLine(), out choice))
+                {
+                    Console.WriteLine("Invalid entry. Please try again");
+                }
+                switch (choice)
+                {
+                    case 1:
+                        manageEmployee.AddEmployees();
+                        break;
+                    case 2:
+                        manageEmployee.DisplayAllEmployees();
+                        break;
+                    case 3:
+                        manageEmployee.DisplaySingleEmployee();
+                        break;
+                    case 4:
+                        manageEmployee.UpdateEmployee();
+                        break;
+                    case 5:
+                        manageEmployee.DeleteEmployee();
+                        break;
+                    case 6:
+                        Console.WriteLine("Exiting the application");
+                        break;
+                    default:
+                        Console.WriteLine("Invalid choice. Please try again");
+                        break;
+                }
+            }while(choice != 6);
+        }
         static void Main(string[] args)
         {
-           ManageEmployee manageEmployee = new ManageEmployee();
-            //manageEmployee.CreateEmployee();
-            manageEmployee.DisplayEmployee();
-          }
+            new Program().PerformAction();
+        }
     }
 }

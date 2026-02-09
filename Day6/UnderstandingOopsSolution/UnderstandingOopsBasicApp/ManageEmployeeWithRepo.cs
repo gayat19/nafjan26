@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,7 +26,7 @@ namespace UnderstandingOopsBasicApp
                 else
                     Console.WriteLine("Unable to add employee");
 
-                Console.WriteLine("If you would like to continue, please enter any number other than 0");
+                Console.WriteLine("If you would like to add more employees?, please enter any number other than 0");
                 while (!Int32.TryParse(Console.ReadLine(), out choice))
                 {
                     Console.WriteLine("Invalid entry. Please try again");
@@ -41,6 +42,7 @@ namespace UnderstandingOopsBasicApp
             employee.Name = Console.ReadLine()??"";
             Console.WriteLine("Please enter the employee Date Of Birth(format - yyyy-mm-dd)");
             employee.DateOfBirth = Convert.ToDateTime(Console.ReadLine());
+            Console.WriteLine("Please enter the employee salary");
             float salary;
             while (!Single.TryParse(Console.ReadLine(), out salary))
                 Console.WriteLine("Invalid entry for salary. Please try again");
@@ -57,8 +59,12 @@ namespace UnderstandingOopsBasicApp
         public void DisplayAllEmployees()
         {
             var employees = employeeRepository.GetAllEmployees();
-            if(employees == null)
+            if (employees == null)
+            {
                 Console.WriteLine("No employees found");
+                return;
+            }
+
             foreach (Employee item in employees)
             {
                 PrintEmployee(item);
@@ -84,6 +90,7 @@ namespace UnderstandingOopsBasicApp
         private int GetEmployeeIdFromConsole()
         {
             int id;
+            Console.WriteLine("Please enter the employee ID");
             while (!Int32.TryParse(Console.ReadLine(),out id) || id<=0)
                 Console.WriteLine("Invalid etry for Id. Please try again");
             return id;
