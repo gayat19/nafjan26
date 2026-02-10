@@ -1,0 +1,7 @@
+Create an application that will perform CRUD operation on Doctor
+Use collection
+Doctor - Id, Name, YearsOfExp, Specialization
+Specialization - Id, Name
+
+Ensure you follow all coding conventions
+Create a Library(DLL) for your models
