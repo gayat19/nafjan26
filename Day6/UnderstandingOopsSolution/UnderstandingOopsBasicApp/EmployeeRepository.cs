@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UnderstandingOopsBasicApp
 {
-    internal class EmployeeRepository
+    internal class EmployeeRepository : IRepository
     {
         Employee[] employees;
         public EmployeeRepository()

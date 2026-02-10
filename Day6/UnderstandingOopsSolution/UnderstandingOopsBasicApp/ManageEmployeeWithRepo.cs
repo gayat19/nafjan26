@@ -9,10 +9,10 @@ namespace UnderstandingOopsBasicApp
 {
     internal class ManageEmployeeWithRepo
     {
-        EmployeeRepository employeeRepository;
-        public ManageEmployeeWithRepo()
+        readonly IRepository _employeeRepository;
+        public ManageEmployeeWithRepo(IRepository employeeRepository)
         {
-            employeeRepository = new EmployeeRepository();
+            _employeeRepository = employeeRepository;
         }
         
         public void AddEmployees()
@@ -21,7 +21,7 @@ namespace UnderstandingOopsBasicApp
             do
             {
                 Employee employee = TakeEmployeeDetailsFromConsole();
-                if(employeeRepository.Add(employee))
+                if(_employeeRepository.Add(employee))
                     Console.WriteLine("Employee Added");
                 else
                     Console.WriteLine("Unable to add employee");
@@ -58,7 +58,7 @@ namespace UnderstandingOopsBasicApp
         }
         public void DisplayAllEmployees()
         {
-            var employees = employeeRepository.GetAllEmployees();
+            var employees = _employeeRepository.GetAllEmployees();
             if (employees == null)
             {
                 Console.WriteLine("No employees found");
@@ -73,7 +73,7 @@ namespace UnderstandingOopsBasicApp
         public void DisplaySingleEmployee()
         {
             int id = GetEmployeeIdFromConsole();
-            var employee = employeeRepository.GetEmployee(id);
+            var employee = _employeeRepository.GetEmployee(id);
             if (employee == null)
                 Console.WriteLine("No such employee");
             else
@@ -99,7 +99,7 @@ namespace UnderstandingOopsBasicApp
         public void UpdateEmployee()
         {
             int id = GetEmployeeIdFromConsole();
-            var employee = employeeRepository.GetEmployee(id);
+            var employee = _employeeRepository.GetEmployee(id);
             if(employee == null)
             {
                 Console.WriteLine("No such employee");
@@ -108,7 +108,7 @@ namespace UnderstandingOopsBasicApp
             PrintEmployee(employee);
             Console.WriteLine("Please enter the updated details");
             var newEmployee = TakeEmployeeDetailsFromConsole();
-            if (employeeRepository.UpdateEmployee(id, newEmployee))
+            if (_employeeRepository.UpdateEmployee(id, newEmployee))
                 Console.WriteLine("Employee details updated successfully");
             else
                 Console.WriteLine("Sorry. Unable to update at this moment");
@@ -116,7 +116,7 @@ namespace UnderstandingOopsBasicApp
         public void DeleteEmployee()
         {
             int id = GetEmployeeIdFromConsole();
-            var employee = employeeRepository.GetEmployee(id);
+            var employee = _employeeRepository.GetEmployee(id);
             if (employee == null)
             {
                 Console.WriteLine("Unable to find employee for delete");
@@ -128,7 +128,7 @@ namespace UnderstandingOopsBasicApp
             choice = Console.ReadLine() ?? "no";
             if (choice.ToLower() == "yes")
             {
-                if (employeeRepository.DeleteEmployee(id))
+                if (_employeeRepository.DeleteEmployee(id))
                 {
                     Console.WriteLine("Employee deleted successfully");
                     return;

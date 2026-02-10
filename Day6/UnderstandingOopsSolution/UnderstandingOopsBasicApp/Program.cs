@@ -3,7 +3,7 @@
     
     internal class Program
     {
-        ManageEmployeeWithRepo manageEmployee = new ManageEmployeeWithRepo();
+        ManageEmployeeWithRepo manageEmployee = new ManageEmployeeWithRepo(new EmployeeRepository());
 
         void PrintMenu()
         {

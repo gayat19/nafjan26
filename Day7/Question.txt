@@ -1,0 +1,7 @@
+1) create a new application
+    Take 2 numbers from user(int)
+    Print the biggest of the 2 numbers
+
+2) Create an application that will do the CRUD operation on Departments
+Ensure you create the Model and repository. Follow all the coding standards
+  
