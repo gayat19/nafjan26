@@ -3,8 +3,9 @@
     
     internal class Program
     {
-        ManageEmployeeWithRepo manageEmployee = new ManageEmployeeWithRepo(new EmployeeRepositoryWithCollection());
-
+        //ManageEmployeeWithRepo manageEmployee = new ManageEmployeeWithRepo(new EmployeeRepositoryWithCollection());
+        ManageEmployeeWithRepo manageEmployee = new ManageEmployeeWithTwoRepo
+            (new EmployeeRepositoryWithCollection(), new DepartmnetRepository());
         void PrintMenu()
         {
             Console.WriteLine("1. Add Employee");

@@ -9,13 +9,13 @@ namespace UnderstandingOopsBasicApp
 {
     internal class ManageEmployeeWithRepo
     {
-        readonly IRepository _employeeRepository;
+        protected readonly IRepository _employeeRepository;
         public ManageEmployeeWithRepo(IRepository employeeRepository)
         {
             _employeeRepository = employeeRepository;
         }
         
-        public void AddEmployees()
+        public virtual void AddEmployees()
         {
             int choice = 0;
             do
@@ -35,7 +35,7 @@ namespace UnderstandingOopsBasicApp
             while (choice!=0);
         }
 
-        private Employee TakeEmployeeDetailsFromConsole()
+        protected virtual Employee TakeEmployeeDetailsFromConsole()
         {
             Employee employee = new Employee();
             Console.WriteLine("Please enter the employee name");
@@ -80,14 +80,14 @@ namespace UnderstandingOopsBasicApp
                 PrintEmployee(employee);
         }
 
-        private void PrintEmployee(Employee employee)
+        protected void PrintEmployee(Employee employee)
         {
             Console.WriteLine("----------------------------");
             Console.WriteLine(employee);
             Console.WriteLine("----------------------------");
         }
 
-        private int GetEmployeeIdFromConsole()
+        protected int GetEmployeeIdFromConsole()
         {
             int id;
             Console.WriteLine("Please enter the employee ID");
@@ -96,7 +96,7 @@ namespace UnderstandingOopsBasicApp
             return id;
         }
 
-        public void UpdateEmployee()
+        public virtual void UpdateEmployee()
         {
             int id = GetEmployeeIdFromConsole();
             var employee = _employeeRepository.GetEmployee(id);

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UnderstandingOopsBasicApp
 {
-    internal class Department
+    internal class Department : IComparable<Department>, IEquatable<Department>
     {
         public int Id { get; set; }
         public string Name { get; set; } =string.Empty;
@@ -25,6 +25,16 @@ namespace UnderstandingOopsBasicApp
         public override string ToString()
         {
             return "Department Id: " + Id + "\nDepartment Name: " + Name;
+        }
+
+        public int CompareTo(Department? other)
+        {
+            return this.Id.CompareTo(other?.Id);
+        }
+
+        public bool Equals(Department? other)
+        {
+            return this.Id == other?.Id;
         }
     }
 }
