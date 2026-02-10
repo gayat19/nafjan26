@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day8\\HrManagementSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FCBB51ED-3607-4D91-8AB7-1AA909CA5C75}|HrManagementApp\\HrManagementApp.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day8\\hrmanagementsolution\\hrmanagementapp\\services\\manageemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCBB51ED-3607-4D91-8AB7-1AA909CA5C75}|HrManagementApp\\HrManagementApp.csproj|solutionrelative:hrmanagementapp\\services\\manageemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCBB51ED-3607-4D91-8AB7-1AA909CA5C75}|HrManagementApp\\HrManagementApp.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day8\\hrmanagementsolution\\hrmanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCBB51ED-3607-4D91-8AB7-1AA909CA5C75}|HrManagementApp\\HrManagementApp.csproj|solutionrelative:hrmanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCBB51ED-3607-4D91-8AB7-1AA909CA5C75}|HrManagementApp\\HrManagementApp.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day8\\hrmanagementsolution\\hrmanagementapp\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCBB51ED-3607-4D91-8AB7-1AA909CA5C75}|HrManagementApp\\HrManagementApp.csproj|solutionrelative:hrmanagementapp\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCBB51ED-3607-4D91-8AB7-1AA909CA5C75}|HrManagementApp\\HrManagementApp.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day8\\hrmanagementsolution\\hrmanagementapp\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCBB51ED-3607-4D91-8AB7-1AA909CA5C75}|HrManagementApp\\HrManagementApp.csproj|solutionrelative:hrmanagementapp\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCBB51ED-3607-4D91-8AB7-1AA909CA5C75}|HrManagementApp\\HrManagementApp.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day8\\hrmanagementsolution\\hrmanagementapp\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCBB51ED-3607-4D91-8AB7-1AA909CA5C75}|HrManagementApp\\HrManagementApp.csproj|solutionrelative:hrmanagementapp\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCBB51ED-3607-4D91-8AB7-1AA909CA5C75}|HrManagementApp\\HrManagementApp.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day8\\hrmanagementsolution\\hrmanagementapp\\hrmanagementapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FCBB51ED-3607-4D91-8AB7-1AA909CA5C75}|HrManagementApp\\HrManagementApp.csproj|solutionrelative:hrmanagementapp\\hrmanagementapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7286D667-11E1-4094-A7F1-6791E0FADAFC}|HrAppModelLibrary\\HrAppModelLibrary.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day8\\hrmanagementsolution\\hrappmodellibrary\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7286D667-11E1-4094-A7F1-6791E0FADAFC}|HrAppModelLibrary\\HrAppModelLibrary.csproj|solutionrelative:hrappmodellibrary\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7286D667-11E1-4094-A7F1-6791E0FADAFC}|HrAppModelLibrary\\HrAppModelLibrary.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day8\\hrmanagementsolution\\hrappmodellibrary\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7286D667-11E1-4094-A7F1-6791E0FADAFC}|HrAppModelLibrary\\HrAppModelLibrary.csproj|solutionrelative:hrappmodellibrary\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ManageEmployeeService.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day8\\HrManagementSolution\\HrManagementApp\\Services\\ManageEmployeeService.cs",
+              "RelativeDocumentMoniker": "HrManagementApp\\Services\\ManageEmployeeService.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day8\\HrManagementSolution\\HrManagementApp\\Services\\ManageEmployeeService.cs",
+              "RelativeToolTip": "HrManagementApp\\Services\\ManageEmployeeService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T07:40:48.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day8\\HrManagementSolution\\HrManagementApp\\Repositories\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "HrManagementApp\\Repositories\\DepartmentRepository.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day8\\HrManagementSolution\\HrManagementApp\\Repositories\\DepartmentRepository.cs",
+              "RelativeToolTip": "HrManagementApp\\Repositories\\DepartmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T07:39:06.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day8\\HrManagementSolution\\HrManagementApp\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "HrManagementApp\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day8\\HrManagementSolution\\HrManagementApp\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "HrManagementApp\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAIA0wFMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T07:36:49.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HrManagementApp",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day8\\HrManagementSolution\\HrManagementApp\\HrManagementApp.csproj",
+              "RelativeDocumentMoniker": "HrManagementApp\\HrManagementApp.csproj",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day8\\HrManagementSolution\\HrManagementApp\\HrManagementApp.csproj",
+              "RelativeToolTip": "HrManagementApp\\HrManagementApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-10T07:33:39.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day8\\HrManagementSolution\\HrManagementApp\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "HrManagementApp\\Interfaces\\IRepository.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day8\\HrManagementSolution\\HrManagementApp\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "HrManagementApp\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T07:33:50.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day8\\HrManagementSolution\\HrAppModelLibrary\\Department.cs",
+              "RelativeDocumentMoniker": "HrAppModelLibrary\\Department.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day8\\HrManagementSolution\\HrAppModelLibrary\\Department.cs",
+              "RelativeToolTip": "HrAppModelLibrary\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T07:32:45.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day8\\HrManagementSolution\\HrAppModelLibrary\\Employee.cs",
+              "RelativeDocumentMoniker": "HrAppModelLibrary\\Employee.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day8\\HrManagementSolution\\HrAppModelLibrary\\Employee.cs",
+              "RelativeToolTip": "HrAppModelLibrary\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T07:31:30.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day8\\HrManagementSolution\\HrManagementApp\\Program.cs",
+              "RelativeDocumentMoniker": "HrManagementApp\\Program.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day8\\HrManagementSolution\\HrManagementApp\\Program.cs",
+              "RelativeToolTip": "HrManagementApp\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T07:30:29.124Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

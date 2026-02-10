@@ -1,0 +1,12 @@
+D:\Corp\Wintech\naf\2026\Participants\Day8\HrManagementSolution\HrAppModelLibrary\bin\Debug\net8.0\HrAppModelLibrary.deps.json
+D:\Corp\Wintech\naf\2026\Participants\Day8\HrManagementSolution\HrAppModelLibrary\bin\Debug\net8.0\HrAppModelLibrary.dll
+D:\Corp\Wintech\naf\2026\Participants\Day8\HrManagementSolution\HrAppModelLibrary\bin\Debug\net8.0\HrAppModelLibrary.pdb
+D:\Corp\Wintech\naf\2026\Participants\Day8\HrManagementSolution\HrAppModelLibrary\obj\Debug\net8.0\HrAppModelLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corp\Wintech\naf\2026\Participants\Day8\HrManagementSolution\HrAppModelLibrary\obj\Debug\net8.0\HrAppModelLibrary.AssemblyInfoInputs.cache
+D:\Corp\Wintech\naf\2026\Participants\Day8\HrManagementSolution\HrAppModelLibrary\obj\Debug\net8.0\HrAppModelLibrary.AssemblyInfo.cs
+D:\Corp\Wintech\naf\2026\Participants\Day8\HrManagementSolution\HrAppModelLibrary\obj\Debug\net8.0\HrAppModelLibrary.csproj.CoreCompileInputs.cache
+D:\Corp\Wintech\naf\2026\Participants\Day8\HrManagementSolution\HrAppModelLibrary\obj\Debug\net8.0\HrAppModelLibrary.sourcelink.json
+D:\Corp\Wintech\naf\2026\Participants\Day8\HrManagementSolution\HrAppModelLibrary\obj\Debug\net8.0\HrAppModelLibrary.dll
+D:\Corp\Wintech\naf\2026\Participants\Day8\HrManagementSolution\HrAppModelLibrary\obj\Debug\net8.0\refint\HrAppModelLibrary.dll
+D:\Corp\Wintech\naf\2026\Participants\Day8\HrManagementSolution\HrAppModelLibrary\obj\Debug\net8.0\HrAppModelLibrary.pdb
+D:\Corp\Wintech\naf\2026\Participants\Day8\HrManagementSolution\HrAppModelLibrary\obj\Debug\net8.0\ref\HrAppModelLibrary.dll

@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day6\\understandingoopssolution\\understandingoopsbasicapp\\departmnetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|solutionrelative:understandingoopsbasicapp\\departmnetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day6\\understandingoopssolution\\understandingoopsbasicapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|solutionrelative:understandingoopsbasicapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day6\\understandingoopssolution\\understandingoopsbasicapp\\manageemployeewithtworepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|solutionrelative:understandingoopsbasicapp\\manageemployeewithtworepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day6\\understandingoopssolution\\understandingoopsbasicapp\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|solutionrelative:understandingoopsbasicapp\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day6\\understandingoopssolution\\understandingoopsbasicapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|solutionrelative:understandingoopsbasicapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day6\\understandingoopssolution\\understandingoopsbasicapp\\manageemployeewithrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,16 +19,28 @@
       "RelativeMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|solutionrelative:understandingoopsbasicapp\\employeerepositorywithcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day6\\understandingoopssolution\\understandingoopsbasicapp\\departmnetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|solutionrelative:understandingoopsbasicapp\\departmnetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day6\\understandingoopssolution\\understandingoopsbasicapp\\employeerepositorywithgeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|solutionrelative:understandingoopsbasicapp\\employeerepositorywithgeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day6\\understandingoopssolution\\understandingoopsbasicapp\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|solutionrelative:understandingoopsbasicapp\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day6\\understandingoopssolution\\understandingoopsbasicapp\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|solutionrelative:understandingoopsbasicapp\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day6\\understandingoopssolution\\understandingoopsbasicapp\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|solutionrelative:understandingoopsbasicapp\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day6\\understandingoopssolution\\understandingoopsbasicapp\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|solutionrelative:understandingoopsbasicapp\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day6\\understandingoopssolution\\understandingoopsbasicapp\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|solutionrelative:understandingoopsbasicapp\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day6\\understandingoopssolution\\understandingoopsbasicapp\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,91 +58,26 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ManageEmployeeWithTwoRepo.cs",
-              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\ManageEmployeeWithTwoRepo.cs",
-              "RelativeDocumentMoniker": "UnderstandingOopsBasicApp\\ManageEmployeeWithTwoRepo.cs",
-              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\ManageEmployeeWithTwoRepo.cs",
-              "RelativeToolTip": "UnderstandingOopsBasicApp\\ManageEmployeeWithTwoRepo.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAYwEkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T06:31:31.162Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "EmployeeRepositoryWithCollection.cs",
               "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\EmployeeRepositoryWithCollection.cs",
               "RelativeDocumentMoniker": "UnderstandingOopsBasicApp\\EmployeeRepositoryWithCollection.cs",
               "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\EmployeeRepositoryWithCollection.cs",
               "RelativeToolTip": "UnderstandingOopsBasicApp\\EmployeeRepositoryWithCollection.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAQwDUAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-10T05:23:47.36Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\Program.cs",
-              "RelativeDocumentMoniker": "UnderstandingOopsBasicApp\\Program.cs",
-              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\Program.cs",
-              "RelativeToolTip": "UnderstandingOopsBasicApp\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB4AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T04:02:50.358Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ManageEmployeeWithRepo.cs",
-              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\ManageEmployeeWithRepo.cs",
-              "RelativeDocumentMoniker": "UnderstandingOopsBasicApp\\ManageEmployeeWithRepo.cs",
-              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\ManageEmployeeWithRepo.cs",
-              "RelativeToolTip": "UnderstandingOopsBasicApp\\ManageEmployeeWithRepo.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAYwEcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T03:48:28.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\IRepository.cs",
-              "RelativeDocumentMoniker": "UnderstandingOopsBasicApp\\IRepository.cs",
-              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\IRepository.cs",
-              "RelativeToolTip": "UnderstandingOopsBasicApp\\IRepository.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T03:43:36.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\Employee.cs",
-              "RelativeDocumentMoniker": "UnderstandingOopsBasicApp\\Employee.cs",
-              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\Employee.cs",
-              "RelativeToolTip": "UnderstandingOopsBasicApp\\Employee.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAewBgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T04:53:01.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "DepartmnetRepository.cs",
               "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\DepartmnetRepository.cs",
               "RelativeDocumentMoniker": "UnderstandingOopsBasicApp\\DepartmnetRepository.cs",
               "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\DepartmnetRepository.cs",
               "RelativeToolTip": "UnderstandingOopsBasicApp\\DepartmnetRepository.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAACwAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-10T06:24:53.478Z",
               "EditorCaption": ""
@@ -146,14 +85,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "UnderstandingOopsBasicApp\\EmployeeRepository.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\EmployeeRepository.cs",
+              "RelativeToolTip": "UnderstandingOopsBasicApp\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T04:52:39.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "EmployeeRepositoryWithGeneric.cs",
               "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\EmployeeRepositoryWithGeneric.cs",
               "RelativeDocumentMoniker": "UnderstandingOopsBasicApp\\EmployeeRepositoryWithGeneric.cs",
               "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\EmployeeRepositoryWithGeneric.cs",
               "RelativeToolTip": "UnderstandingOopsBasicApp\\EmployeeRepositoryWithGeneric.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-10T06:20:17.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManageEmployeeWithTwoRepo.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\ManageEmployeeWithTwoRepo.cs",
+              "RelativeDocumentMoniker": "UnderstandingOopsBasicApp\\ManageEmployeeWithTwoRepo.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\ManageEmployeeWithTwoRepo.cs",
+              "RelativeToolTip": "UnderstandingOopsBasicApp\\ManageEmployeeWithTwoRepo.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T06:31:31.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManageEmployeeWithRepo.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\ManageEmployeeWithRepo.cs",
+              "RelativeDocumentMoniker": "UnderstandingOopsBasicApp\\ManageEmployeeWithRepo.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\ManageEmployeeWithRepo.cs",
+              "RelativeToolTip": "UnderstandingOopsBasicApp\\ManageEmployeeWithRepo.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAAIkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T03:48:28.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\Program.cs",
+              "RelativeDocumentMoniker": "UnderstandingOopsBasicApp\\Program.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\Program.cs",
+              "RelativeToolTip": "UnderstandingOopsBasicApp\\Program.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAADgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T04:02:50.358Z",
               "EditorCaption": ""
             },
             {
@@ -164,7 +155,7 @@
               "RelativeDocumentMoniker": "UnderstandingOopsBasicApp\\IRepo.cs",
               "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\IRepo.cs",
               "RelativeToolTip": "UnderstandingOopsBasicApp\\IRepo.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAswA4AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAcwA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-10T06:16:23.105Z",
               "EditorCaption": ""
@@ -172,15 +163,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "EmployeeRepository.cs",
-              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\EmployeeRepository.cs",
-              "RelativeDocumentMoniker": "UnderstandingOopsBasicApp\\EmployeeRepository.cs",
-              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\EmployeeRepository.cs",
-              "RelativeToolTip": "UnderstandingOopsBasicApp\\EmployeeRepository.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAABEAAAA7AAAAAAAAAA==",
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\Department.cs",
+              "RelativeDocumentMoniker": "UnderstandingOopsBasicApp\\Department.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\Department.cs",
+              "RelativeToolTip": "UnderstandingOopsBasicApp\\Department.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAACYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T04:52:39.419Z",
+              "WhenOpened": "2026-02-10T07:32:26.414Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\Employee.cs",
+              "RelativeDocumentMoniker": "UnderstandingOopsBasicApp\\Employee.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\Employee.cs",
+              "RelativeToolTip": "UnderstandingOopsBasicApp\\Employee.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAADAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T04:53:01.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\IRepository.cs",
+              "RelativeDocumentMoniker": "UnderstandingOopsBasicApp\\IRepository.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\IRepository.cs",
+              "RelativeToolTip": "UnderstandingOopsBasicApp\\IRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T03:43:36.493Z"
             }
           ]
         }

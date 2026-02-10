@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "HrManagementApp/1.0.0": {
+        "dependencies": {
+          "HrAppModelLibrary": "1.0.0"
+        },
+        "runtime": {
+          "HrManagementApp.dll": {}
+        }
+      },
+      "HrAppModelLibrary/1.0.0": {
+        "runtime": {
+          "HrAppModelLibrary.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HrManagementApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HrAppModelLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

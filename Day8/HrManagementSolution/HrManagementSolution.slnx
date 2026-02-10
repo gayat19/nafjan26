@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="HrAppModelLibrary/HrAppModelLibrary.csproj" />
+  <Project Path="HrManagementApp/HrManagementApp.csproj" />
+</Solution>
