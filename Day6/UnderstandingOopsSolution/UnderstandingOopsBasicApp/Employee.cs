@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace UnderstandingOopsBasicApp
 {
-    internal class Employee
+    internal class Employee :IComparable<Employee>
     {
         //prop - properties
         public int Id { get; set; }
@@ -35,6 +35,11 @@ namespace UnderstandingOopsBasicApp
         public override string ToString()
         {
                 return $"Employee Id: {Id}\nEmployee Name: {Name}\nEmployee Date Of Birth: {DateOfBirth}\nEmployee Salary: {Salary}\nEmployee Department Id: {Department.Id}\nEmployee Department Name: {Department.Name}";
+        }
+
+        public int CompareTo(Employee? other)
+        {
+           return this.Name.CompareTo(other?.Name);
         }
     }
 }
