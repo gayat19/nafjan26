@@ -27,6 +27,10 @@ namespace UnderstandingOopsBasicApp
             Console.WriteLine("After sorting");
             foreach (Employee employee in employees)
                 Console.WriteLine(employee);
+            employees.Remove(new Employee { Id=1});
+            Console.WriteLine("After remove");
+            foreach (Employee employee in employees)
+                Console.WriteLine(employee);
         }
 
         static void Main(string[] args)

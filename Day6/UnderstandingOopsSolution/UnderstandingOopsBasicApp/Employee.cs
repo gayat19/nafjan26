@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace UnderstandingOopsBasicApp
 {
-    internal class Employee :IComparable<Employee>
+    internal class Employee :IComparable<Employee>, IEquatable<Employee>
     {
         //prop - properties
         public int Id { get; set; }
@@ -40,6 +40,11 @@ namespace UnderstandingOopsBasicApp
         public int CompareTo(Employee? other)
         {
            return this.Name.CompareTo(other?.Name);
+        }
+
+        public bool Equals(Employee? other)
+        {
+            return this.Id == other?.Id;
         }
     }
 }

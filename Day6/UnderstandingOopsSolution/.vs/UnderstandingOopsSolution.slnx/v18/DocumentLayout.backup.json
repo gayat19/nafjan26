@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day6\\understandingoopssolution\\understandingoopsbasicapp\\collectionsummaexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|solutionrelative:understandingoopsbasicapp\\collectionsummaexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day6\\understandingoopssolution\\understandingoopsbasicapp\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|solutionrelative:understandingoopsbasicapp\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day6\\understandingoopssolution\\understandingoopsbasicapp\\collectionsummaexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|solutionrelative:understandingoopsbasicapp\\collectionsummaexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D56CFF45-0A57-28C1-814E-A40CC68BC60F}|UnderstandingOopsBasicApp\\UnderstandingOopsBasicApp.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day6\\understandingoopssolution\\understandingoopsbasicapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,30 +34,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Employee.cs",
               "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\Employee.cs",
               "RelativeDocumentMoniker": "UnderstandingOopsBasicApp\\Employee.cs",
-              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\Employee.cs",
-              "RelativeToolTip": "UnderstandingOopsBasicApp\\Employee.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAADwvy0AAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\Employee.cs*",
+              "RelativeToolTip": "UnderstandingOopsBasicApp\\Employee.cs*",
+              "ViewState": "AgIAACcAAAAAAAAAAAAywC4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-10T04:53:01.538Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CollectionSummaExample.cs",
               "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\CollectionSummaExample.cs",
               "RelativeDocumentMoniker": "UnderstandingOopsBasicApp\\CollectionSummaExample.cs",
               "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day6\\UnderstandingOopsSolution\\UnderstandingOopsBasicApp\\CollectionSummaExample.cs",
               "RelativeToolTip": "UnderstandingOopsBasicApp\\CollectionSummaExample.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAjwBkAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAUwB4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-10T04:40:37.596Z",
               "EditorCaption": ""
@@ -72,8 +72,7 @@
               "RelativeToolTip": "UnderstandingOopsBasicApp\\Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T04:02:50.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T04:02:50.358Z"
             },
             {
               "$type": "Document",
@@ -85,8 +84,7 @@
               "RelativeToolTip": "UnderstandingOopsBasicApp\\ManageEmployeeWithRepo.cs",
               "ViewState": "AgIAAHsAAAAAAAAAAADwv4QAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T03:48:28.524Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T03:48:28.524Z"
             },
             {
               "$type": "Document",
@@ -110,8 +108,7 @@
               "RelativeToolTip": "UnderstandingOopsBasicApp\\EmployeeRepository.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAqwAgAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T04:52:39.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-09T04:52:39.419Z"
             }
           ]
         }
