@@ -39,7 +39,7 @@ namespace UnderstandingOopsBasicApp
 
         public int CompareTo(Employee? other)
         {
-           return this.Name.CompareTo(other?.Name);
+           return this.Id.CompareTo(other?.Id);
         }
 
         public bool Equals(Employee? other)
