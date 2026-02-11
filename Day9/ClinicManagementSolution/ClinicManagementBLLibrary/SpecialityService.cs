@@ -1,4 +1,5 @@
-﻿using ClinicManagementBLLibrary.Interfaces;
+﻿using ClinicManagementBLLibrary.Exceptions;
+using ClinicManagementBLLibrary.Interfaces;
 using ClinicManagementDALLibrary.Interfaces;
 using ClinicManagementModelsLibrary;
 
@@ -16,7 +17,7 @@ namespace ClinicManagementBLLibrary
         {
             var isDuplicate = GetSpecialityByName(speciality.Name) != null;
             if (isDuplicate)
-                return false;
+                throw new Exception("Speciality with the same name already exists");
             var result = _repository.Add(speciality);
             //return result != null;
             if(result != null)
@@ -30,17 +31,26 @@ namespace ClinicManagementBLLibrary
             var result = _repository.GetAll();
             if (result != null)
                 return result.ToList();
-            throw new Exception("No Specialities in the collection");
+            throw new NoItemsInCollectionException("Speciality");
         }
 
         public Speciality? GetSpecialityById(int id)
         {
-            throw new NotImplementedException();
+            var result = _repository.Get(id);
+            if(result != null)
+                return result;
+            throw new ItemNotFoundException(id);
         }
 
         public int? GetSpecialityByName(string name)
         {
-            throw new NotImplementedException();
+            var specialities = _repository.GetAll();
+            if (specialities == null)
+                throw new NoItemsInCollectionException("Speciality");
+            var speciality = specialities.FirstOrDefault(s => s.Name == name);
+            if (speciality != null)
+                return speciality.Id;
+            throw new ItemNotFoundException();
         }
     }
 }
