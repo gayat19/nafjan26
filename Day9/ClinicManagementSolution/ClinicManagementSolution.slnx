@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ClinicManagementApp/ClinicManagementApp.csproj" />
+  <Project Path="ClinicManagementBLLibrary/ClinicManagementBLLibrary.csproj" />
+  <Project Path="ClinicManagementDALLibrary/ClinicManagementDALLibrary.csproj" />
+  <Project Path="ClinicManagementModelsLibrary/ClinicManagementModelsLibrary.csproj" />
+</Solution>

@@ -1,0 +1,12 @@
+D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementModelsLibrary\obj\Debug\net8.0\ClinicManagementModelsLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementModelsLibrary\obj\Debug\net8.0\ClinicManagementModelsLibrary.AssemblyInfoInputs.cache
+D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementModelsLibrary\obj\Debug\net8.0\ClinicManagementModelsLibrary.AssemblyInfo.cs
+D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementModelsLibrary\obj\Debug\net8.0\ClinicManagementModelsLibrary.csproj.CoreCompileInputs.cache
+D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementModelsLibrary\obj\Debug\net8.0\ClinicManagementModelsLibrary.sourcelink.json
+D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementModelsLibrary\bin\Debug\net8.0\ClinicManagementModelsLibrary.deps.json
+D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementModelsLibrary\bin\Debug\net8.0\ClinicManagementModelsLibrary.dll
+D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementModelsLibrary\bin\Debug\net8.0\ClinicManagementModelsLibrary.pdb
+D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementModelsLibrary\obj\Debug\net8.0\ClinicManagementModelsLibrary.dll
+D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementModelsLibrary\obj\Debug\net8.0\refint\ClinicManagementModelsLibrary.dll
+D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementModelsLibrary\obj\Debug\net8.0\ClinicManagementModelsLibrary.pdb
+D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementModelsLibrary\obj\Debug\net8.0\ref\ClinicManagementModelsLibrary.dll

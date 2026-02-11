@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ClinicManagementModelsLibrary/1.0.0": {
+        "runtime": {
+          "ClinicManagementModelsLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ClinicManagementModelsLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
