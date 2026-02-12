@@ -14,7 +14,7 @@ namespace ClinicManagementBLLibrary.Interfaces
         public List<Doctor> GetDoctorsBySpeciality(string name);
         public bool AddDoctor(Doctor doctor);
         public bool UpdateDoctor(int id, int? experience, string? speciality);
-        public List<Patient> GetAllPatients();
+      
 
 
     }

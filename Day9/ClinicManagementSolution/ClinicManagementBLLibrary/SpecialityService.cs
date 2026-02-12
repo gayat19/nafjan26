@@ -13,6 +13,7 @@ namespace ClinicManagementBLLibrary
         {
             _repository = repository;
         }
+      
         public bool AddSpeciality(Speciality speciality)
         {
             var isDuplicate = GetSpecialityByName(speciality.Name) != null;
@@ -25,7 +26,7 @@ namespace ClinicManagementBLLibrary
             else
                 return false;
         }
-
+        
         public List<Speciality> GetAllSpecialities()
         {
             var result = _repository.GetAll();
@@ -33,7 +34,7 @@ namespace ClinicManagementBLLibrary
                 return result.ToList();
             throw new NoItemsInCollectionException("Speciality");
         }
-
+        
         public Speciality? GetSpecialityById(int id)
         {
             var result = _repository.Get(id);
@@ -41,6 +42,7 @@ namespace ClinicManagementBLLibrary
                 return result;
             throw new ItemNotFoundException(id);
         }
+        
 
         public int? GetSpecialityByName(string name)
         {
