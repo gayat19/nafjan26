@@ -16,9 +16,12 @@ namespace ClinicManagementBLLibrary
       
         public bool AddSpeciality(Speciality speciality)
         {
-            var isDuplicate = GetSpecialityByName(speciality.Name) != null;
-            if (isDuplicate)
-                throw new Exception("Speciality with the same name already exists");
+            if(_repository.GetAll() != null && _repository.GetAll().Count() > 0)
+            {
+                var isDuplicate = GetSpecialityByName(speciality.Name) != null;
+                if (isDuplicate)
+                    throw new Exception("Speciality with the same name already exists");
+            }
             var result = _repository.Add(speciality);
             //return result != null;
             if(result != null)

@@ -28,14 +28,18 @@ namespace ClinicManagementBLLibrary
         public bool AddDoctor(Doctor doctor)
         {
             bool specialityAdded = false;
-            if (doctor.Speciality != null && _specialityService.AddSpeciality(doctor.Speciality))
+            if (doctor.Speciality != null )
             {
-                doctor.SpecialityId = doctor.Speciality.Id;
-                doctor.Speciality = null;
-                specialityAdded = true;
+                if (_specialityService.AddSpeciality(doctor.Speciality))
+                {
+                    doctor.SpecialityId = doctor.Speciality.Id;
+                    doctor.Speciality = null;
+                    specialityAdded = true;
+                }
             }
             else
                 specialityAdded = true;
+
             var result = _doctorRepository.Add(doctor);
             if ( result != null && specialityAdded)
                 return true;
@@ -46,14 +50,14 @@ namespace ClinicManagementBLLibrary
             throw new Exception("Failed to add doctor and speciality");
         }
 
-        public List<Appointment> GetAllAppointments()
+        public List<Appointment> GetAllAppointments(int userid)
         {
             var appointments = _appointmentRepository.GetAll();
            
             if (appointments == null || appointments.Count() == 0)
                 throw new NoItemsInCollectionException("No appointments found");
             appointments = appointments
-                            .Where(a=>a.Status != "Cancelled")
+                            .Where(a=>a.Status != "Cancelled" && a.DoctorId== userid)
                             .OrderByDescending(a => a.AppointmnetDate);
             //LINQ as query syntax
             //var appointments = from a in _appointmentRepository.GetAll()

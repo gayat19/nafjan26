@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ClinicManagementDALLibrary/1.0.0": {
+        "dependencies": {
+          "ClinicManagementModelsLibrary": "1.0.0"
+        },
+        "runtime": {
+          "ClinicManagementDALLibrary.dll": {}
+        }
+      },
+      "ClinicManagementModelsLibrary/1.0.0": {
+        "runtime": {
+          "ClinicManagementModelsLibrary.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ClinicManagementDALLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClinicManagementModelsLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

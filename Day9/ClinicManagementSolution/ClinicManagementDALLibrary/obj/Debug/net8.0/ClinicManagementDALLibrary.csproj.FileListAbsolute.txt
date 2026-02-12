@@ -4,3 +4,13 @@ D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManage
 D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementDALLibrary\obj\Debug\net8.0\ClinicManagementDALLibrary.AssemblyInfo.cs
 D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementDALLibrary\obj\Debug\net8.0\ClinicManagementDALLibrary.csproj.CoreCompileInputs.cache
 D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementDALLibrary\obj\Debug\net8.0\ClinicManagementDALLibrary.sourcelink.json
+D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementDALLibrary\bin\Debug\net8.0\ClinicManagementDALLibrary.deps.json
+D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementDALLibrary\bin\Debug\net8.0\ClinicManagementDALLibrary.dll
+D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementDALLibrary\bin\Debug\net8.0\ClinicManagementDALLibrary.pdb
+D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementDALLibrary\bin\Debug\net8.0\ClinicManagementModelsLibrary.dll
+D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementDALLibrary\bin\Debug\net8.0\ClinicManagementModelsLibrary.pdb
+D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementDALLibrary\obj\Debug\net8.0\ClinicMa.A85A3014.Up2Date
+D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementDALLibrary\obj\Debug\net8.0\ClinicManagementDALLibrary.dll
+D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementDALLibrary\obj\Debug\net8.0\refint\ClinicManagementDALLibrary.dll
+D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementDALLibrary\obj\Debug\net8.0\ClinicManagementDALLibrary.pdb
+D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementDALLibrary\obj\Debug\net8.0\ref\ClinicManagementDALLibrary.dll

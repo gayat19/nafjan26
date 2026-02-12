@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ClinicManagementBLLibrary\ClinicManagementBLLibrary.csproj" />
+    <ProjectReference Include="..\ClinicManagementModelsLibrary\ClinicManagementModelsLibrary.csproj" />
+  </ItemGroup>
+
 </Project>

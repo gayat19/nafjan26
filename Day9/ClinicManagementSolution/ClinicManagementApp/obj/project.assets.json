@@ -1,11 +1,67 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "ClinicManagementBLLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ClinicManagementDALLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ClinicManagementBLLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClinicManagementBLLibrary.dll": {}
+        }
+      },
+      "ClinicManagementDALLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ClinicManagementModelsLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ClinicManagementDALLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClinicManagementDALLibrary.dll": {}
+        }
+      },
+      "ClinicManagementModelsLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ClinicManagementModelsLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClinicManagementModelsLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ClinicManagementBLLibrary/1.0.0": {
+      "type": "project",
+      "path": "../ClinicManagementBLLibrary/ClinicManagementBLLibrary.csproj",
+      "msbuildProject": "../ClinicManagementBLLibrary/ClinicManagementBLLibrary.csproj"
+    },
+    "ClinicManagementDALLibrary/1.0.0": {
+      "type": "project",
+      "path": "../ClinicManagementDALLibrary/ClinicManagementDALLibrary.csproj",
+      "msbuildProject": "../ClinicManagementDALLibrary/ClinicManagementDALLibrary.csproj"
+    },
+    "ClinicManagementModelsLibrary/1.0.0": {
+      "type": "project",
+      "path": "../ClinicManagementModelsLibrary/ClinicManagementModelsLibrary.csproj",
+      "msbuildProject": "../ClinicManagementModelsLibrary/ClinicManagementModelsLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "ClinicManagementBLLibrary >= 1.0.0",
+      "ClinicManagementModelsLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\gayat\\.nuget\\packages\\": {},
@@ -38,7 +94,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementBLLibrary\\ClinicManagementBLLibrary.csproj": {
+              "projectPath": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementBLLibrary\\ClinicManagementBLLibrary.csproj"
+            },
+            "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementModelsLibrary\\ClinicManagementModelsLibrary.csproj": {
+              "projectPath": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementModelsLibrary\\ClinicManagementModelsLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

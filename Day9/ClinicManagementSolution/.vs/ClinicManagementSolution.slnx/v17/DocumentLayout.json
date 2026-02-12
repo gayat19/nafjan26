@@ -3,36 +3,32 @@
   "WorkspaceRootPath": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1009C03-47F1-6BF7-7B63-9FBB48392E85}|ClinicManagementBLLibrary\\ClinicManagementBLLibrary.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day9\\clinicmanagementsolution\\clinicmanagementbllibrary\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1009C03-47F1-6BF7-7B63-9FBB48392E85}|ClinicManagementBLLibrary\\ClinicManagementBLLibrary.csproj|solutionrelative:clinicmanagementbllibrary\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B1009C03-47F1-6BF7-7B63-9FBB48392E85}|ClinicManagementBLLibrary\\ClinicManagementBLLibrary.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day9\\clinicmanagementsolution\\clinicmanagementbllibrary\\specialityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1009C03-47F1-6BF7-7B63-9FBB48392E85}|ClinicManagementBLLibrary\\ClinicManagementBLLibrary.csproj|solutionrelative:clinicmanagementbllibrary\\specialityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1009C03-47F1-6BF7-7B63-9FBB48392E85}|ClinicManagementBLLibrary\\ClinicManagementBLLibrary.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day9\\clinicmanagementsolution\\clinicmanagementbllibrary\\interfaces\\ispecialityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1009C03-47F1-6BF7-7B63-9FBB48392E85}|ClinicManagementBLLibrary\\ClinicManagementBLLibrary.csproj|solutionrelative:clinicmanagementbllibrary\\interfaces\\ispecialityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1009C03-47F1-6BF7-7B63-9FBB48392E85}|ClinicManagementBLLibrary\\ClinicManagementBLLibrary.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day9\\clinicmanagementsolution\\clinicmanagementbllibrary\\interfaces\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1009C03-47F1-6BF7-7B63-9FBB48392E85}|ClinicManagementBLLibrary\\ClinicManagementBLLibrary.csproj|solutionrelative:clinicmanagementbllibrary\\interfaces\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1009C03-47F1-6BF7-7B63-9FBB48392E85}|ClinicManagementBLLibrary\\ClinicManagementBLLibrary.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day9\\clinicmanagementsolution\\clinicmanagementbllibrary\\exceptions\\partialaddexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1009C03-47F1-6BF7-7B63-9FBB48392E85}|ClinicManagementBLLibrary\\ClinicManagementBLLibrary.csproj|solutionrelative:clinicmanagementbllibrary\\exceptions\\partialaddexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1009C03-47F1-6BF7-7B63-9FBB48392E85}|ClinicManagementBLLibrary\\ClinicManagementBLLibrary.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day9\\clinicmanagementsolution\\clinicmanagementbllibrary\\exceptions\\itemnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1009C03-47F1-6BF7-7B63-9FBB48392E85}|ClinicManagementBLLibrary\\ClinicManagementBLLibrary.csproj|solutionrelative:clinicmanagementbllibrary\\exceptions\\itemnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82B16673-4DA7-7B90-35CD-5C871E110C33}|ClinicManagementDALLibrary\\ClinicManagementDALLibrary.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day9\\clinicmanagementsolution\\clinicmanagementdallibrary\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82B16673-4DA7-7B90-35CD-5C871E110C33}|ClinicManagementDALLibrary\\ClinicManagementDALLibrary.csproj|solutionrelative:clinicmanagementdallibrary\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DCB95193-5218-8A59-1285-FC175AC9D36A}|ClinicManagementApp\\ClinicManagementApp.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day9\\clinicmanagementsolution\\clinicmanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DCB95193-5218-8A59-1285-FC175AC9D36A}|ClinicManagementApp\\ClinicManagementApp.csproj|solutionrelative:clinicmanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1009C03-47F1-6BF7-7B63-9FBB48392E85}|ClinicManagementBLLibrary\\ClinicManagementBLLibrary.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day9\\clinicmanagementsolution\\clinicmanagementbllibrary\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1009C03-47F1-6BF7-7B63-9FBB48392E85}|ClinicManagementBLLibrary\\ClinicManagementBLLibrary.csproj|solutionrelative:clinicmanagementbllibrary\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1009C03-47F1-6BF7-7B63-9FBB48392E85}|ClinicManagementBLLibrary\\ClinicManagementBLLibrary.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day9\\clinicmanagementsolution\\clinicmanagementbllibrary\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1009C03-47F1-6BF7-7B63-9FBB48392E85}|ClinicManagementBLLibrary\\ClinicManagementBLLibrary.csproj|solutionrelative:clinicmanagementbllibrary\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82B16673-4DA7-7B90-35CD-5C871E110C33}|ClinicManagementDALLibrary\\ClinicManagementDALLibrary.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day9\\clinicmanagementsolution\\clinicmanagementdallibrary\\specialityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82B16673-4DA7-7B90-35CD-5C871E110C33}|ClinicManagementDALLibrary\\ClinicManagementDALLibrary.csproj|solutionrelative:clinicmanagementdallibrary\\specialityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1009C03-47F1-6BF7-7B63-9FBB48392E85}|ClinicManagementBLLibrary\\ClinicManagementBLLibrary.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day9\\clinicmanagementsolution\\clinicmanagementbllibrary\\interfaces\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1009C03-47F1-6BF7-7B63-9FBB48392E85}|ClinicManagementBLLibrary\\ClinicManagementBLLibrary.csproj|solutionrelative:clinicmanagementbllibrary\\interfaces\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82B16673-4DA7-7B90-35CD-5C871E110C33}|ClinicManagementDALLibrary\\ClinicManagementDALLibrary.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day9\\clinicmanagementsolution\\clinicmanagementdallibrary\\appointmnetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82B16673-4DA7-7B90-35CD-5C871E110C33}|ClinicManagementDALLibrary\\ClinicManagementDALLibrary.csproj|solutionrelative:clinicmanagementdallibrary\\appointmnetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "SpecialityService.cs",
               "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementBLLibrary\\SpecialityService.cs",
               "RelativeDocumentMoniker": "ClinicManagementBLLibrary\\SpecialityService.cs",
               "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementBLLibrary\\SpecialityService.cs",
               "RelativeToolTip": "ClinicManagementBLLibrary\\SpecialityService.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAowDEAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAD4vxAAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T06:11:50.292Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IDoctorService.cs",
-              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementBLLibrary\\Interfaces\\IDoctorService.cs",
-              "RelativeDocumentMoniker": "ClinicManagementBLLibrary\\Interfaces\\IDoctorService.cs",
-              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementBLLibrary\\Interfaces\\IDoctorService.cs",
-              "RelativeToolTip": "ClinicManagementBLLibrary\\Interfaces\\IDoctorService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T04:23:10.654Z",
+              "WhenOpened": "2026-02-12T05:15:06.251Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "PartialAddException.cs",
-              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementBLLibrary\\Exceptions\\PartialAddException.cs",
-              "RelativeDocumentMoniker": "ClinicManagementBLLibrary\\Exceptions\\PartialAddException.cs",
-              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementBLLibrary\\Exceptions\\PartialAddException.cs",
-              "RelativeToolTip": "ClinicManagementBLLibrary\\Exceptions\\PartialAddException.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAABCAAAAAAAAAA==",
+              "Title": "SpecialityRepository.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementDALLibrary\\SpecialityRepository.cs",
+              "RelativeDocumentMoniker": "ClinicManagementDALLibrary\\SpecialityRepository.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementDALLibrary\\SpecialityRepository.cs",
+              "RelativeToolTip": "ClinicManagementDALLibrary\\SpecialityRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T04:10:18.193Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ISpecialityService.cs",
-              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementBLLibrary\\Interfaces\\ISpecialityService.cs",
-              "RelativeDocumentMoniker": "ClinicManagementBLLibrary\\Interfaces\\ISpecialityService.cs",
-              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementBLLibrary\\Interfaces\\ISpecialityService.cs",
-              "RelativeToolTip": "ClinicManagementBLLibrary\\Interfaces\\ISpecialityService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAIA4wCEAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T03:50:03.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementDALLibrary\\Interfaces\\IRepository.cs",
-              "RelativeDocumentMoniker": "ClinicManagementDALLibrary\\Interfaces\\IRepository.cs",
-              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementDALLibrary\\Interfaces\\IRepository.cs",
-              "RelativeToolTip": "ClinicManagementDALLibrary\\Interfaces\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T07:20:02.695Z",
+              "WhenOpened": "2026-02-12T05:14:54.085Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ItemNotFoundException.cs",
-              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementBLLibrary\\Exceptions\\ItemNotFoundException.cs",
-              "RelativeDocumentMoniker": "ClinicManagementBLLibrary\\Exceptions\\ItemNotFoundException.cs",
-              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementBLLibrary\\Exceptions\\ItemNotFoundException.cs",
-              "RelativeToolTip": "ClinicManagementBLLibrary\\Exceptions\\ItemNotFoundException.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAIwBIAAAAJAAAAAAAAAA==",
+              "Title": "IAppointmentService.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementBLLibrary\\Interfaces\\IAppointmentService.cs",
+              "RelativeDocumentMoniker": "ClinicManagementBLLibrary\\Interfaces\\IAppointmentService.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementBLLibrary\\Interfaces\\IAppointmentService.cs",
+              "RelativeToolTip": "ClinicManagementBLLibrary\\Interfaces\\IAppointmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T06:52:20.283Z",
+              "WhenOpened": "2026-02-12T05:12:33.736Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementApp\\Program.cs",
-              "RelativeDocumentMoniker": "ClinicManagementApp\\Program.cs",
-              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementApp\\Program.cs",
-              "RelativeToolTip": "ClinicManagementApp\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAwAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "PatientService.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementBLLibrary\\PatientService.cs",
+              "RelativeDocumentMoniker": "ClinicManagementBLLibrary\\PatientService.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementBLLibrary\\PatientService.cs",
+              "RelativeToolTip": "ClinicManagementBLLibrary\\PatientService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAWwDUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T06:23:04.764Z"
+              "WhenOpened": "2026-02-12T05:07:01.729Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "DoctorService.cs",
               "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementBLLibrary\\DoctorService.cs",
               "RelativeDocumentMoniker": "ClinicManagementBLLibrary\\DoctorService.cs",
               "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementBLLibrary\\DoctorService.cs",
               "RelativeToolTip": "ClinicManagementBLLibrary\\DoctorService.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAqwHQAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAMwEsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T06:11:51.521Z",
+              "WhenOpened": "2026-02-12T05:06:54.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementApp\\Program.cs",
+              "RelativeDocumentMoniker": "ClinicManagementApp\\Program.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementApp\\Program.cs",
+              "RelativeToolTip": "ClinicManagementApp\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAMwB8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T06:23:04.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppointmnetRepository.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementDALLibrary\\AppointmnetRepository.cs",
+              "RelativeDocumentMoniker": "ClinicManagementDALLibrary\\AppointmnetRepository.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementDALLibrary\\AppointmnetRepository.cs",
+              "RelativeToolTip": "ClinicManagementDALLibrary\\AppointmnetRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T05:04:18.716Z",
               "EditorCaption": ""
             }
           ]

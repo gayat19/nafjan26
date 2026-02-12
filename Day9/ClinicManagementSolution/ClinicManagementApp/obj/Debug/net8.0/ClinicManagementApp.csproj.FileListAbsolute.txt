@@ -13,3 +13,11 @@ D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManage
 D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementApp\obj\Debug\net8.0\ClinicManagementApp.pdb
 D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementApp\obj\Debug\net8.0\ClinicManagementApp.genruntimeconfig.cache
 D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementApp\obj\Debug\net8.0\ref\ClinicManagementApp.dll
+D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementApp\obj\Debug\net8.0\ClinicManagementApp.csproj.AssemblyReference.cache
+D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementApp\bin\Debug\net8.0\ClinicManagementBLLibrary.dll
+D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementApp\bin\Debug\net8.0\ClinicManagementDALLibrary.dll
+D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementApp\bin\Debug\net8.0\ClinicManagementModelsLibrary.dll
+D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementApp\bin\Debug\net8.0\ClinicManagementBLLibrary.pdb
+D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementApp\bin\Debug\net8.0\ClinicManagementModelsLibrary.pdb
+D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementApp\bin\Debug\net8.0\ClinicManagementDALLibrary.pdb
+D:\Corp\Wintech\naf\2026\Participants\Day9\ClinicManagementSolution\ClinicManagementApp\obj\Debug\net8.0\ClinicMa.807D9F56.Up2Date

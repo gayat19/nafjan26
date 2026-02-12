@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ClinicManagementDALLibrary
 {
-    internal class AppointmentRepository : Repository<int, Appointment>
+    public class AppointmentRepository : Repository<int, Appointment>
     {
         public override Appointment? Add(Appointment item)
         {

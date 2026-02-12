@@ -9,7 +9,7 @@ namespace ClinicManagementBLLibrary.Interfaces
 {
     public interface IAppointmentService
     {
-        public List<Appointment> GetAllAppointments();
+        public List<Appointment> GetAllAppointments(int userid);
         public Appointment? GetAppointmentById(int id);
     }
 }
