@@ -14,10 +14,9 @@ namespace EFUnderstandingApp.Models
         public string Name { get; set; } = string.Empty;
         public int SpecialityId { get; set; }
 
-        [ForeignKey("SpecialityId")]
         public Speciality? Speciality { get; set; }
         public int Experience { get; set; }
-        public Collection<Appointment>? Appointmnets { get; set; }
+        public Collection<Appointment>? Appointments { get; set; }
 
         public int CompareTo(Doctor? other)
         {
