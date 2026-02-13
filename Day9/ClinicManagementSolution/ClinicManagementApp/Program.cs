@@ -29,9 +29,9 @@ namespace ClinicManagementApp
         {
            try
             {
-                var speciality = specialityService.AddSpeciality(new Speciality { Name = "Cardiology" });
-                var doctor = new Doctor { Name = "Dr. Smith", Experience = 10, SpecialityId = specialityService.GetSpecialityByName("Cardiology") ?? 0 };
-                var patient = new Patient { Name = "John", Phone = "9876543210" };
+                //var speciality = specialityService.AddSpeciality(new Speciality { Name = "Cardiology" });
+                var doctor = new Doctor { Name = "Dr. SmithNew", Experience = 10, SpecialityId = specialityService.GetSpecialityByName("Cardiology") ?? 0 };
+                var patient = new Patient { Name = "JohnNew", Phone = "6598743210" };
                 doctorService.AddDoctor(doctor);
                 patientService.Add(patient);
                 var appointment = new Appointment

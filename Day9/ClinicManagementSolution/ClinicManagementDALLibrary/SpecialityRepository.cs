@@ -9,23 +9,18 @@ namespace ClinicManagementDALLibrary
 {
     public class SpecialityRepository : Repository<int, Speciality>
     {
-        public override Speciality? Add(Speciality item)
+        public override Speciality? Get(int key)
         {
-            int newId = GenerateId();
-            item.Id = newId;
-            _items.Add(newId, item);
-            return item;
+            var speciality =clinicContext.Specialities.SingleOrDefault(s=> s.Id == key);
+            return speciality;
         }
 
-        private int GenerateId()
+        public override IEnumerable<Speciality>? GetAll()
         {
-            if(_items.Count == 0)
-            {
-                return 1;
-            }   
-            List<int> keys = _items.Keys.ToList();
-            keys.Sort();
-            return keys[keys.Count - 1]+1;
+            var specialities = clinicContext.Specialities;
+            if (specialities == null || !specialities.Any())
+                return null;
+            return specialities;
         }
     }
 }

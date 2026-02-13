@@ -9,23 +9,18 @@ namespace ClinicManagementDALLibrary
 {
     public class AppointmentRepository : Repository<int, Appointment>
     {
-        public override Appointment? Add(Appointment item)
+        public override Appointment? Get(int key)
         {
-            int newId = GenerateId();
-            item.AppointmnetNumber = newId;
-            _items.Add(newId, item);
+           var item = clinicContext.Appointments.SingleOrDefault(a=>a.AppointmnetNumber == key);
             return item;
         }
 
-        private int GenerateId()
+        public override IEnumerable<Appointment>? GetAll()
         {
-            if (_items.Count == 0)
-            {
-                return 1;
-            }
-            List<int> keys = _items.Keys.ToList();
-            keys.Sort();
-            return keys[keys.Count - 1] + 1;
+            var appointments = clinicContext.Appointments;
+            if (appointments == null || appointments.Count() == 0)
+                return null;
+            return appointments;
         }
     }
 }

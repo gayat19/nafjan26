@@ -10,7 +10,7 @@ namespace ClinicManagementModelsLibrary
         public int SpecialityId { get; set; }
         public Speciality? Speciality { get; set; }
         public int Experience { get; set; }
-        public Collection<Appointment>? Appointmnets { get; set; }
+        public Collection<Appointment>? Appointments { get; set; }
 
         public int CompareTo(Doctor? other)
         {

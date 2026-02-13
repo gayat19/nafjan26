@@ -9,22 +9,19 @@ namespace ClinicManagementDALLibrary
 {
     public class PatientRepository : Repository<int, Patient>
     {
-        public override Patient? Add(Patient item)
+        public override Patient? Get(int key)
         {
-            int newId = GenerateId();
-            item.Id = newId;
-            _items.Add(newId, item);
-            return item;
+            var patient = clinicContext.Patients.Find(key);
+            return patient;
+
         }
-        private int GenerateId()
+
+        public override IEnumerable<Patient>? GetAll()
         {
-            if (_items.Count == 0)
-            {
-                return 1;
-            }
-            List<int> keys = _items.Keys.ToList();
-            keys.Sort();
-            return keys[keys.Count - 1] + 1;
+            var patients = clinicContext.Patients;
+            if (patients == null || patients.Count() == 0)
+                return null;
+            return patients;
         }
     }
 }

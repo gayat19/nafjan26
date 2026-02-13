@@ -11,6 +11,8 @@ namespace ClinicManagementModelsLibrary
         public int Id { get; set; }
         public string Name { get; set; } = string.Empty;
 
+        public ICollection<Doctor>? Doctors { get; set; }
+
         public int CompareTo(Speciality? other)
         {
             return other != null ? Id.CompareTo(other.Id) : 1;
