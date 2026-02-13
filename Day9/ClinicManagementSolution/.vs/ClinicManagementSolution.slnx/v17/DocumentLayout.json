@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5FA8085E-D059-8E67-8907-0EE2E301AB9C}|ClinicManagementModelsLibrary\\ClinicManagementModelsLibrary.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day9\\clinicmanagementsolution\\clinicmanagementmodelslibrary\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA8085E-D059-8E67-8907-0EE2E301AB9C}|ClinicManagementModelsLibrary\\ClinicManagementModelsLibrary.csproj|solutionrelative:clinicmanagementmodelslibrary\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DCB95193-5218-8A59-1285-FC175AC9D36A}|ClinicManagementApp\\ClinicManagementApp.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day9\\clinicmanagementsolution\\clinicmanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DCB95193-5218-8A59-1285-FC175AC9D36A}|ClinicManagementApp\\ClinicManagementApp.csproj|solutionrelative:clinicmanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -38,11 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementModelsLibrary\\Doctor.cs",
+              "RelativeDocumentMoniker": "ClinicManagementModelsLibrary\\Doctor.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementModelsLibrary\\Doctor.cs",
+              "RelativeToolTip": "ClinicManagementModelsLibrary\\Doctor.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T05:07:18.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "SpecialityService.cs",
               "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementBLLibrary\\SpecialityService.cs",
               "RelativeDocumentMoniker": "ClinicManagementBLLibrary\\SpecialityService.cs",
@@ -54,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "SpecialityRepository.cs",
               "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementDALLibrary\\SpecialityRepository.cs",
               "RelativeDocumentMoniker": "ClinicManagementDALLibrary\\SpecialityRepository.cs",
@@ -66,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "IAppointmentService.cs",
               "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementBLLibrary\\Interfaces\\IAppointmentService.cs",
               "RelativeDocumentMoniker": "ClinicManagementBLLibrary\\Interfaces\\IAppointmentService.cs",
@@ -78,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PatientService.cs",
               "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementBLLibrary\\PatientService.cs",
               "RelativeDocumentMoniker": "ClinicManagementBLLibrary\\PatientService.cs",
@@ -90,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "DoctorService.cs",
               "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementBLLibrary\\DoctorService.cs",
               "RelativeDocumentMoniker": "ClinicManagementBLLibrary\\DoctorService.cs",
@@ -102,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementApp\\Program.cs",
               "RelativeDocumentMoniker": "ClinicManagementApp\\Program.cs",
@@ -115,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AppointmnetRepository.cs",
               "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementDALLibrary\\AppointmnetRepository.cs",
               "RelativeDocumentMoniker": "ClinicManagementDALLibrary\\AppointmnetRepository.cs",

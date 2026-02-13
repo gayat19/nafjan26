@@ -1,37 +1,32 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace EFUnderstandingApp.Models
 {
-    public class Doctor : IComparable<Doctor>, IEquatable<Doctor>
+    public class Patient : IComparable<Patient>, IEquatable<Patient>
     {
         public int Id { get; set; }
         public string Name { get; set; } = string.Empty;
-        public int SpecialityId { get; set; }
-
-        [ForeignKey("SpecialityId")]
-        public Speciality? Speciality { get; set; }
-        public int Experience { get; set; }
+        public string Status { get; set; } = string.Empty;
+        public string Phone { get; set; } = string.Empty;
         public Collection<Appointment>? Appointmnets { get; set; }
 
-        public int CompareTo(Doctor? other)
+        public int CompareTo(Patient? other)
         {
             return other != null ? Id.CompareTo(other.Id) : 1;
         }
 
-        public bool Equals(Doctor? other)
+        public bool Equals(Patient? other)
         {
             return other != null && Id == other.Id;
         }
-
         override public string ToString()
         {
-            return $"Id: {Id}, Name: {Name}, Speciality: {Speciality?.Name}, Experience: {Experience} years";
+            return $"Id: {Id}, Name: {Name}, Phone: {Phone} , Status: {Status}";
         }
     }
 }
