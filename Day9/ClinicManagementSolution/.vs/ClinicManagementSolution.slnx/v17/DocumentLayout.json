@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1009C03-47F1-6BF7-7B63-9FBB48392E85}|ClinicManagementBLLibrary\\ClinicManagementBLLibrary.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day9\\clinicmanagementsolution\\clinicmanagementbllibrary\\specialityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1009C03-47F1-6BF7-7B63-9FBB48392E85}|ClinicManagementBLLibrary\\ClinicManagementBLLibrary.csproj|solutionrelative:clinicmanagementbllibrary\\specialityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DCB95193-5218-8A59-1285-FC175AC9D36A}|ClinicManagementApp\\ClinicManagementApp.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day9\\clinicmanagementsolution\\clinicmanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DCB95193-5218-8A59-1285-FC175AC9D36A}|ClinicManagementApp\\ClinicManagementApp.csproj|solutionrelative:clinicmanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1009C03-47F1-6BF7-7B63-9FBB48392E85}|ClinicManagementBLLibrary\\ClinicManagementBLLibrary.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day9\\clinicmanagementsolution\\clinicmanagementbllibrary\\specialityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1009C03-47F1-6BF7-7B63-9FBB48392E85}|ClinicManagementBLLibrary\\ClinicManagementBLLibrary.csproj|solutionrelative:clinicmanagementbllibrary\\specialityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B1009C03-47F1-6BF7-7B63-9FBB48392E85}|ClinicManagementBLLibrary\\ClinicManagementBLLibrary.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day9\\clinicmanagementsolution\\clinicmanagementbllibrary\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SpecialityService.cs",
               "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementBLLibrary\\SpecialityService.cs",
               "RelativeDocumentMoniker": "ClinicManagementBLLibrary\\SpecialityService.cs",
@@ -50,8 +50,7 @@
               "RelativeToolTip": "ClinicManagementBLLibrary\\SpecialityService.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAD4vxAAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T05:15:06.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-12T05:15:06.251Z"
             },
             {
               "$type": "Document",
@@ -63,8 +62,7 @@
               "RelativeToolTip": "ClinicManagementDALLibrary\\SpecialityRepository.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T05:14:54.085Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-12T05:14:54.085Z"
             },
             {
               "$type": "Document",
@@ -76,8 +74,7 @@
               "RelativeToolTip": "ClinicManagementBLLibrary\\Interfaces\\IAppointmentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T05:12:33.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-12T05:12:33.736Z"
             },
             {
               "$type": "Document",
@@ -89,8 +86,7 @@
               "RelativeToolTip": "ClinicManagementBLLibrary\\PatientService.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAWwDUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T05:07:01.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-12T05:07:01.729Z"
             },
             {
               "$type": "Document",
@@ -102,18 +98,17 @@
               "RelativeToolTip": "ClinicManagementBLLibrary\\DoctorService.cs",
               "ViewState": "AgIAAD0AAAAAAAAAAAAMwEsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T05:06:54.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-12T05:06:54.065Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementApp\\Program.cs",
               "RelativeDocumentMoniker": "ClinicManagementApp\\Program.cs",
               "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day9\\ClinicManagementSolution\\ClinicManagementApp\\Program.cs",
               "RelativeToolTip": "ClinicManagementApp\\Program.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAMwB8AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAWwCoAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-11T06:23:04.764Z",
               "EditorCaption": ""
@@ -128,8 +123,7 @@
               "RelativeToolTip": "ClinicManagementDALLibrary\\AppointmnetRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T05:04:18.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-12T05:04:18.716Z"
             }
           ]
         }
