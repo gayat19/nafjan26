@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "FirstAPI.Controllers.DoctorController",
+    "Method": "CreateDoctor",
+    "RelativePath": "api/Doctor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctor",
+        "Type": "FirstAPI.Models.DTOs.CreateDoctorRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FirstAPI.Controllers.DoctorController",
+    "Method": "GetDoctors",
+    "RelativePath": "api/Doctor/GetDoctors",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "FirstAPI.Models.DTOs.GetDoctorRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
