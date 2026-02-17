@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FirstAPI.Migrations
 {
     [DbContext(typeof(ClinicContext))]
-    [Migration("20260217035217_Login")]
-    partial class Login
+    [Migration("20260217051256_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -49,6 +49,29 @@ namespace FirstAPI.Migrations
                         .HasFilter("[Username] IS NOT NULL");
 
                     b.ToTable("Doctors");
+                });
+
+            modelBuilder.Entity("FirstAPI.Models.GetDoctorSPDoctor", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Experience")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Username")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Proc_GetAllDoctors");
                 });
 
             modelBuilder.Entity("FirstAPI.Models.User", b =>

@@ -20,10 +20,20 @@ builder.Services.AddDbContext<ClinicContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("Development"));
 });
 
+builder.Services.AddCors(options =>
+{
+   options.AddDefaultPolicy(policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+
 builder.Services.AddScoped<IRepository<int,Doctor>,Repository<int,Doctor>>();
 builder.Services.AddScoped<IRepository<string,User>,Repository<string,User>>();
 
-builder.Services.AddScoped<IDoctorService,DoctorService>();
+builder.Services.AddScoped<IDoctorService,DoctorServiceV1>();
 builder.Services.AddScoped<IPasswordService,PasswordService>();
 
 var app = builder.Build();
@@ -34,6 +44,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors();
 
 app.UseAuthorization();
 

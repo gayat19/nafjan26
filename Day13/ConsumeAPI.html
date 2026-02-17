@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Doctor Registration</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f6f8fa;
+            padding: 24px;
+        }
+
+        .card {
+            background: white;
+            max-width: 480px;
+            margin: 32px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .field {
+            margin-bottom: 12px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: 600;
+        }
+
+        input[type="text"], input[type="number"], input[type="password"] {
+            width: 100%;
+            padding: 8px 10px;
+            border: 1px solid #d1d5db;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .row {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+
+        button {
+            background: #0b5fff;
+            color: white;
+            border: none;
+            padding: 10px 14px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+            button[disabled] {
+                opacity: 0.6;
+                cursor: not-allowed;
+            }
+
+        .msg {
+            margin-top: 12px;
+            padding: 10px;
+            border-radius: 6px;
+        }
+
+            .msg.success {
+                background: #ecfdf5;
+                color: #065f46;
+                border: 1px solid #bbf7d0;
+            }
+
+            .msg.error {
+                background: #fff1f2;
+                color: #9f1239;
+                border: 1px solid #fecaca;
+            }
+
+        .small {
+            font-size: 13px;
+            color: #6b7280;
+        }
+    </style>
+</head>
+<body>
+    <div class="card" role="main">
+        <h2>Doctor Registration</h2>
+        <form id="registerForm" novalidate>
+            <div class="field">
+                <label for="name">Full name</label>
+                <input id="name" name="name" type="text" required />
+            </div>
+
+            <div class="field">
+                <label for="experience">Years of experience</label>
+                <input id="experience" name="experience" type="number" min="0" step="1" value="0" required />
+                <div class="small">Enter whole years (0 or greater).</div>
+            </div>
+
+            <div class="field">
+                <label for="username">Username</label>
+                <input id="username" name="username" type="text" required />
+            </div>
+
+            <div class="field">
+                <label for="password">Password</label>
+                <div class="row">
+                    <input id="password" name="password" type="password" required />
+                    <button type="button" id="togglePwd" title="Show / hide password">Show</button>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top:14px;">
+                <button id="submitBtn" type="submit">Register</button>
+                <div id="spinner" class="small" style="margin-left:8px;display:none;">Sending...</div>
+            </div>
+
+            <div id="result" aria-live="polite"></div>
+        </form>
+        <p class="small" style="margin-top:14px;">
+            POST URL: <code>http://localhost:5000/api/Doctor</code>
+        </p>
+    </div>
+
+    <script>(function () {
+            const form = document.getElementById('registerForm');
+            const submitBtn = document.getElementById('submitBtn');
+            const spinner = document.getElementById('spinner');
+            const result = document.getElementById('result');
+            const toggleBtn = document.getElementById('togglePwd');
+            const pwdInput = document.getElementById('password');
+
+            toggleBtn.addEventListener('click', () => {
+                if (pwdInput.type === 'password') {
+                    pwdInput.type = 'text';
+                    toggleBtn.textContent = 'Hide';
+                } else {
+                    pwdInput.type = 'password';
+                    toggleBtn.textContent = 'Show';
+                }
+            });
+
+            function showMessage(message, type) {
+                result.innerHTML = '';
+                const div = document.createElement('div');
+                div.className = 'msg ' + (type === 'success' ? 'success' : 'error');
+                div.textContent = message;
+                result.appendChild(div);
+            }
+
+            form.addEventListener('submit', async (e) => {
+                e.preventDefault();
+                result.innerHTML = '';
+
+                const name = document.getElementById('name').value.trim();
+                const experienceRaw = document.getElementById('experience').value;
+                const username = document.getElementById('username').value.trim();
+                const password = document.getElementById('password').value;
+
+                // Basic validation
+                if (!name) { showMessage('Name is required.', 'error'); return; }
+                if (!username) { showMessage('Username is required.', 'error'); return; }
+                if (!password) { showMessage('Password is required.', 'error'); return; }
+                const experience = Number(experienceRaw);
+                if (!Number.isFinite(experience) || experience < 0 || !Number.isInteger(experience)) {
+                    showMessage('Experience must be a whole number 0 or greater.', 'error'); return;
+                }
+
+                const payload = {
+                    name: name,
+                    experience: experience,
+                    username: username,
+                    password: password
+                };
+
+                // UI: disable while sending
+                submitBtn.disabled = true;
+                spinner.style.display = 'inline';
+                try {
+                    const resp = await fetch('http://localhost:5000/api/Doctor', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    });
+
+                    const text = await resp.text();
+                    let json;
+                    try { json = text ? JSON.parse(text) : null; } catch { json = text; }
+
+                    if (resp.ok) {
+                        showMessage('Registration successful. Server response: ' + (typeof json === 'object' ? JSON.stringify(json) : String(json)), 'success');
+                        form.reset();
+                        document.getElementById('experience').value = '0';
+                    } else {
+                        showMessage('Server returned ' + resp.status + ': ' + (typeof json === 'object' ? JSON.stringify(json) : String(json)), 'error');
+                    }
+                } catch (err) {
+                    showMessage('Network or CORS error: ' + err.message, 'error');
+                } finally {
+                    submitBtn.disabled = false;
+                    spinner.style.display = 'none';
+                }
+            });
+        })();</script>
+</body>
+</html>

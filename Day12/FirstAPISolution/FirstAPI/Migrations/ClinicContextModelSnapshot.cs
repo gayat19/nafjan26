@@ -48,6 +48,29 @@ namespace FirstAPI.Migrations
                     b.ToTable("Doctors");
                 });
 
+            modelBuilder.Entity("FirstAPI.Models.GetDoctorSPDoctor", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Experience")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Username")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Proc_GetAllDoctors");
+                });
+
             modelBuilder.Entity("FirstAPI.Models.User", b =>
                 {
                     b.Property<string>("Username")
