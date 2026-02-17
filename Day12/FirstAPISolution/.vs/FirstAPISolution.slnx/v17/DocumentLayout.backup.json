@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day12\\FirstAPISolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day12\\firstapisolution\\firstapi\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day12\\firstapisolution\\firstapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day12\\firstapisolution\\firstapi\\contexts\\cliniccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\contexts\\cliniccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day12\\firstapisolution\\firstapi\\models\\dtos\\createdoctorrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\models\\dtos\\createdoctorrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DoctorService.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day12\\FirstAPISolution\\FirstAPI\\Services\\DoctorService.cs",
+              "RelativeDocumentMoniker": "FirstAPI\\Services\\DoctorService.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day12\\FirstAPISolution\\FirstAPI\\Services\\DoctorService.cs",
+              "RelativeToolTip": "FirstAPI\\Services\\DoctorService.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAwwDIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T03:55:05.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day12\\FirstAPISolution\\FirstAPI\\Program.cs",
+              "RelativeDocumentMoniker": "FirstAPI\\Program.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day12\\FirstAPISolution\\FirstAPI\\Program.cs",
+              "RelativeToolTip": "FirstAPI\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABoAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T03:53:37.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClinicContext.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day12\\FirstAPISolution\\FirstAPI\\Contexts\\ClinicContext.cs",
+              "RelativeDocumentMoniker": "FirstAPI\\Contexts\\ClinicContext.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day12\\FirstAPISolution\\FirstAPI\\Contexts\\ClinicContext.cs",
+              "RelativeToolTip": "FirstAPI\\Contexts\\ClinicContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwBkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T03:50:04.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateDoctorRequestDto.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day12\\FirstAPISolution\\FirstAPI\\Models\\DTOs\\CreateDoctorRequestDto.cs",
+              "RelativeDocumentMoniker": "FirstAPI\\Models\\DTOs\\CreateDoctorRequestDto.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day12\\FirstAPISolution\\FirstAPI\\Models\\DTOs\\CreateDoctorRequestDto.cs",
+              "RelativeToolTip": "FirstAPI\\Models\\DTOs\\CreateDoctorRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T03:45:05.538Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

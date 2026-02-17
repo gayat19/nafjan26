@@ -21,8 +21,10 @@ builder.Services.AddDbContext<ClinicContext>(options =>
 });
 
 builder.Services.AddScoped<IRepository<int,Doctor>,Repository<int,Doctor>>();
+builder.Services.AddScoped<IRepository<string,User>,Repository<string,User>>();
 
 builder.Services.AddScoped<IDoctorService,DoctorService>();
+builder.Services.AddScoped<IPasswordService,PasswordService>();
 
 var app = builder.Build();
 

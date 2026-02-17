@@ -9,13 +9,21 @@ namespace FirstAPI.Contexts
         {
         }
         public DbSet<Doctor> Doctors { get; set; }
+        public DbSet<User> Users { get; set; }
 
         override protected void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Doctor>().HasData(
-                new Doctor() { Id = 1, Name = "Ramu", Experience = 2 },
-                new Doctor() { Id = 2, Name = "Somu", Experience = 3 }
-            );
+            modelBuilder.Entity<User>().HasKey(u=>u.Username).HasName("PK_Username");
+
+            modelBuilder.Entity<Doctor>()
+                .HasOne(d => d.User)
+                .WithOne(u => u.Doctor)
+                .HasForeignKey<Doctor>(d => d.Username)
+                .HasPrincipalKey<User>(u => u.Username)
+                .OnDelete(DeleteBehavior.Restrict)
+                .HasConstraintName("FK_Doctor_User");
+
+      
         }
     }
 }

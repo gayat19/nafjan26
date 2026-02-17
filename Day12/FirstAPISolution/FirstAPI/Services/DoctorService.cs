@@ -8,10 +8,16 @@ namespace FirstAPI.Services
     public class DoctorService : IDoctorService
     {
         private readonly IRepository<int, Doctor> _doctorRepository;
+        private readonly IPasswordService _passwordService;
+        private readonly IRepository<string, User> _userRepository;
 
-        public DoctorService(IRepository<int,Doctor> doctorRepository) 
+        public DoctorService(IRepository<int,Doctor> doctorRepository,
+                             IRepository<string,User> userRepository,
+                               IPasswordService passwordService) 
         {
             _doctorRepository = doctorRepository;
+            _passwordService = passwordService;
+            _userRepository = userRepository;
         }
         public CreateDoctorResponseDto CreateDoctor(CreateDoctorRequestDTO request)
         {
@@ -20,6 +26,25 @@ namespace FirstAPI.Services
                 Name = request.Name,
                 Experience = request.Experience
             };
+            if (_userRepository.Get(request.Username) != null)
+            {
+                throw new Exception($"Username {request.Username} already exixt");
+            }
+            byte[] hashKey;
+            var encryptedPassword = _passwordService.HashPassword(request.Password,null,out hashKey);
+            var user = new User
+            {
+                Username = request.Username,
+                PasswordHash = hashKey,
+                Password = encryptedPassword,
+                Role = "Doctor",
+            };
+            var createdUser = _userRepository.Add(user);
+  
+            if (createdUser == null)
+            {
+                throw new UnableToCreateEntityException("User");
+            }
             var createdDoctor = _doctorRepository.Add(doctor);
             if (createdDoctor == null)
             {

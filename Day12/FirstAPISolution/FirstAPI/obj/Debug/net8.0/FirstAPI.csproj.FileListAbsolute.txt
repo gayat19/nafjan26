@@ -27,7 +27,6 @@ D:\Corp\Wintech\naf\2026\Participants\Day12\FirstAPISolution\FirstAPI\obj\Debug\
 D:\Corp\Wintech\naf\2026\Participants\Day12\FirstAPISolution\FirstAPI\obj\Debug\net8.0\staticwebassets.build.json.cache
 D:\Corp\Wintech\naf\2026\Participants\Day12\FirstAPISolution\FirstAPI\obj\Debug\net8.0\staticwebassets.development.json
 D:\Corp\Wintech\naf\2026\Participants\Day12\FirstAPISolution\FirstAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\Corp\Wintech\naf\2026\Participants\Day12\FirstAPISolution\FirstAPI\obj\Debug\net8.0\swae.build.ex.cache
 D:\Corp\Wintech\naf\2026\Participants\Day12\FirstAPISolution\FirstAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\Corp\Wintech\naf\2026\Participants\Day12\FirstAPISolution\FirstAPI\obj\Debug\net8.0\FirstAPI.csproj.Up2Date
 D:\Corp\Wintech\naf\2026\Participants\Day12\FirstAPISolution\FirstAPI\obj\Debug\net8.0\FirstAPI.dll

@@ -71,15 +71,28 @@
   "components": {
     "schemas": {
       "CreateDoctorRequestDTO": {
+        "required": [
+          "name",
+          "password",
+          "username"
+        ],
         "type": "object",
         "properties": {
           "name": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "experience": {
             "type": "integer",
             "format": "int32"
+          },
+          "username": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "password": {
+            "minLength": 1,
+            "type": "string"
           }
         },
         "additionalProperties": false
