@@ -16,10 +16,10 @@ namespace FirstAPI.Services
             _context = context;
             _passwordService = passwordService;
         }
-        public CreateDoctorResponseDto CreateDoctor(CreateDoctorRequestDTO request)
+        public async Task<CreateDoctorResponseDto> CreateDoctor(CreateDoctorRequestDTO request)
         {
             //Tranaction for creating doctor and user
-            using var transaction = _context.Database.BeginTransaction();
+            using var transaction = await _context.Database.BeginTransactionAsync();
             try
             {
                 var encryptedPassword = _passwordService.HashPassword(request.Password, null, out byte[] hashKey);
@@ -31,7 +31,7 @@ namespace FirstAPI.Services
                     Role = "Doctor",
                 };
                 _context.Users.Add(user);
-                _context.SaveChanges();
+                await _context.SaveChangesAsync();
                 var doctor = new Models.Doctor
                 {
                     Name = request.Name,
@@ -39,8 +39,8 @@ namespace FirstAPI.Services
                     Username = request.Username
                 };
                 _context.Doctors.Add(doctor);
-                _context.SaveChanges();
-                transaction.Commit();
+                await _context.SaveChangesAsync();
+                await transaction.CommitAsync();
                 return new CreateDoctorResponseDto
                 {
                     DoctorId = doctor.Id
@@ -48,15 +48,15 @@ namespace FirstAPI.Services
             }
             catch (Exception e)
             {
-                transaction.Rollback();
+                await transaction.RollbackAsync();
                 throw e;
             }
         }
 
-        public GetDoctorsResponseDto GetDoctors(GetDoctorRequestDto request)
+        public async Task<GetDoctorsResponseDto> GetDoctors(GetDoctorRequestDto request)
         {
             //execute stored procedure to get doctors with pagination
-            var doctors = _context.Doctors.FromSqlRaw("EXEC proc_GetAllDoctors {0}, {1}", ((request.PageNumber-1)*request.PageSize), request.PageSize).ToList();
+            var doctors = await _context.Doctors.FromSqlRaw("EXEC proc_GetAllDoctors {0}, {1}", ((request.PageNumber-1)*request.PageSize), request.PageSize).ToListAsync();
             if(doctors == null || doctors.Count == 0)
             {
                 throw new EntityNotFoundException("Doctor");

@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "FirstAPI.Controllers.AuthenticationController",
+    "Method": "Login",
+    "RelativePath": "api/Authentication/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userRequestDto",
+        "Type": "FirstAPI.Models.DTOs.CheckUserRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FirstAPI.Models.DTOs.CheckUserResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "FirstAPI.Controllers.DoctorController",
     "Method": "CreateDoctor",
     "RelativePath": "api/Doctor",

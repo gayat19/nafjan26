@@ -2,6 +2,7 @@
 using FirstAPI.Models;
 using FirstAPI.Models.DTOs;
 using FirstAPI.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -18,12 +19,13 @@ namespace FirstAPI.Controllers
             _doctorService = doctorService;
         }
 
+        [Authorize]
         [HttpPost("GetDoctors")]
-        public ActionResult GetDoctors(GetDoctorRequestDto requestDto)
+        public async Task<ActionResult> GetDoctors(GetDoctorRequestDto requestDto)
         {
             try
             {
-                var response = _doctorService.GetDoctors(requestDto);
+                var response = await _doctorService.GetDoctors(requestDto);
                 return Ok(response);
             }
             catch (Exception e)
@@ -32,12 +34,13 @@ namespace FirstAPI.Controllers
             }
         }
 
+        [Authorize(Roles ="admin")]
         [HttpPost]
-        public ActionResult CreateDoctor(CreateDoctorRequestDTO doctor)
+        public async Task<ActionResult> CreateDoctor(CreateDoctorRequestDTO doctor)
         {
             try
             {
-                var result = _doctorService.CreateDoctor(doctor);
+                var result = await _doctorService.CreateDoctor(doctor);
                 return Created($"https://baseurl/doctors/{result.DoctorId}", result);
             }
             catch (Exception e)

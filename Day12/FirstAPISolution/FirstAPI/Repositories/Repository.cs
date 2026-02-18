@@ -1,5 +1,6 @@
 ﻿using FirstAPI.Contexts;
 using FirstAPI.Interfaces;
+using Microsoft.EntityFrameworkCore;
 
 namespace FirstAPI.Repositories
 {
@@ -11,46 +12,46 @@ namespace FirstAPI.Repositories
         {
             _context = context;
         }
-        public T? Add(T item)
+        public async Task<T?> Add(T item)
         {
             _context.Add(item);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
             return item;
         }
 
-        public T? Delete(K key)
+        public async Task<T> Delete(K key)
         {
-            var item = Get(key);
+            var item = await Get(key);
             if(item != null)
             {
                 _context.Remove(item);
-                _context.SaveChanges();
+                await _context.SaveChangesAsync();
                 return item;
             }
             return null;
         }
 
-        public T? Get(K key)
+        public async Task<T?> Get(K key)
         {
-            var item = _context.Find<T>(key);   
+            var item = await _context.FindAsync<T>(key);   
             return item != null ? item : null;
         }
 
-        public IEnumerable<T>? GetAll()
+        public async Task<IEnumerable<T>?> GetAll()
         {
-            var items = _context.Set<T>().ToList();
+            var items = await _context.Set<T>().ToListAsync();
             if(items.Any())
                 return items;
             return null;
         }
 
-        public T? Update(K key, T item)
+        public async Task<T?> Update(K key, T item)
         {
-            var existingItem = Get(key);
+            var existingItem = await Get(key);
             if(existingItem != null)
             {
                 _context.Entry(existingItem).CurrentValues.SetValues(item);
-                _context.SaveChanges();
+                await _context.SaveChangesAsync();
                 return existingItem;
             }
             return null;

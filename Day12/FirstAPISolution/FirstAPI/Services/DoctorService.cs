@@ -19,14 +19,14 @@ namespace FirstAPI.Services
             _passwordService = passwordService;
             _userRepository = userRepository;
         }
-        public CreateDoctorResponseDto CreateDoctor(CreateDoctorRequestDTO request)
+        public async Task<CreateDoctorResponseDto> CreateDoctor(CreateDoctorRequestDTO request)
         {
             Doctor doctor = new Doctor
             {
                 Name = request.Name,
                 Experience = request.Experience
             };
-            if (_userRepository.Get(request.Username) != null)
+            if ((await _userRepository.Get(request.Username)) != null)
             {
                 throw new Exception($"Username {request.Username} already exixt");
             }
@@ -39,13 +39,13 @@ namespace FirstAPI.Services
                 Password = encryptedPassword,
                 Role = "Doctor",
             };
-            var createdUser = _userRepository.Add(user);
+            var createdUser = await _userRepository.Add(user);
   
             if (createdUser == null)
             {
                 throw new UnableToCreateEntityException("User");
             }
-            var createdDoctor = _doctorRepository.Add(doctor);
+            var createdDoctor = await _doctorRepository.Add(doctor);
             if (createdDoctor == null)
             {
                 throw new UnableToCreateEntityException("Doctor");
@@ -56,9 +56,9 @@ namespace FirstAPI.Services
             };
         }
 
-        public GetDoctorsResponseDto GetDoctors(GetDoctorRequestDto request)
+        public async Task<GetDoctorsResponseDto> GetDoctors(GetDoctorRequestDto request)
         {
-            var doctors = _doctorRepository.GetAll();
+            var doctors = await _doctorRepository.GetAll();
             if(doctors == null)
             {
                 throw new EntityNotFoundException("Doctor");

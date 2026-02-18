@@ -4,8 +4,8 @@ namespace FirstAPI.Interfaces
 {
     public interface IDoctorService
     {
-        public CreateDoctorResponseDto CreateDoctor(CreateDoctorRequestDTO request);
-        public GetDoctorsResponseDto GetDoctors(GetDoctorRequestDto request);
+        public Task<CreateDoctorResponseDto> CreateDoctor(CreateDoctorRequestDTO request);
+        public Task<GetDoctorsResponseDto> GetDoctors(GetDoctorRequestDto request);
 
     }
 }
