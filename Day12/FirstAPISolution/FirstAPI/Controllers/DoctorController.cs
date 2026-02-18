@@ -34,7 +34,7 @@ namespace FirstAPI.Controllers
             }
         }
 
-        [Authorize(Roles ="admin")]
+        [Authorize]
         [HttpPost]
         public async Task<ActionResult> CreateDoctor(CreateDoctorRequestDTO doctor)
         {

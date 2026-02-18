@@ -11,7 +11,7 @@ namespace FirstAPI.Contexts
         public DbSet<Doctor> Doctors { get; set; }
         public DbSet<User> Users { get; set; }
 
-        public DbSet<GetDoctorSPDoctor> Proc_GetAllDoctors { get; set; }
+
         override protected void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<User>().HasKey(u=>u.Username).HasName("PK_Username");
