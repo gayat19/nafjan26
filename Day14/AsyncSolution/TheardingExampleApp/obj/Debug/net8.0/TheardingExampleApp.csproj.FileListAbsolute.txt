@@ -1,0 +1,15 @@
+D:\Corp\Wintech\naf\2026\Participants\Day14\AsyncSolution\TheardingExampleApp\bin\Debug\net8.0\TheardingExampleApp.exe
+D:\Corp\Wintech\naf\2026\Participants\Day14\AsyncSolution\TheardingExampleApp\bin\Debug\net8.0\TheardingExampleApp.deps.json
+D:\Corp\Wintech\naf\2026\Participants\Day14\AsyncSolution\TheardingExampleApp\bin\Debug\net8.0\TheardingExampleApp.runtimeconfig.json
+D:\Corp\Wintech\naf\2026\Participants\Day14\AsyncSolution\TheardingExampleApp\bin\Debug\net8.0\TheardingExampleApp.dll
+D:\Corp\Wintech\naf\2026\Participants\Day14\AsyncSolution\TheardingExampleApp\bin\Debug\net8.0\TheardingExampleApp.pdb
+D:\Corp\Wintech\naf\2026\Participants\Day14\AsyncSolution\TheardingExampleApp\obj\Debug\net8.0\TheardingExampleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corp\Wintech\naf\2026\Participants\Day14\AsyncSolution\TheardingExampleApp\obj\Debug\net8.0\TheardingExampleApp.AssemblyInfoInputs.cache
+D:\Corp\Wintech\naf\2026\Participants\Day14\AsyncSolution\TheardingExampleApp\obj\Debug\net8.0\TheardingExampleApp.AssemblyInfo.cs
+D:\Corp\Wintech\naf\2026\Participants\Day14\AsyncSolution\TheardingExampleApp\obj\Debug\net8.0\TheardingExampleApp.csproj.CoreCompileInputs.cache
+D:\Corp\Wintech\naf\2026\Participants\Day14\AsyncSolution\TheardingExampleApp\obj\Debug\net8.0\TheardingExampleApp.sourcelink.json
+D:\Corp\Wintech\naf\2026\Participants\Day14\AsyncSolution\TheardingExampleApp\obj\Debug\net8.0\TheardingExampleApp.dll
+D:\Corp\Wintech\naf\2026\Participants\Day14\AsyncSolution\TheardingExampleApp\obj\Debug\net8.0\refint\TheardingExampleApp.dll
+D:\Corp\Wintech\naf\2026\Participants\Day14\AsyncSolution\TheardingExampleApp\obj\Debug\net8.0\TheardingExampleApp.pdb
+D:\Corp\Wintech\naf\2026\Participants\Day14\AsyncSolution\TheardingExampleApp\obj\Debug\net8.0\TheardingExampleApp.genruntimeconfig.cache
+D:\Corp\Wintech\naf\2026\Participants\Day14\AsyncSolution\TheardingExampleApp\obj\Debug\net8.0\ref\TheardingExampleApp.dll

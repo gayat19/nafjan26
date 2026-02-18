@@ -1,0 +1,12 @@
+Create an Web API that will help us manage the Employees. The roles are Employee and Admin
+
+Employee data that has to stored are Id, Name, DateOfBirth, DepartmnetId
+Department will have Id, Name
+User will have EmployeeId, Password, PasswordHash and Role
+
+Employee can register with an endpoint
+Also have a way to display employee data, Please populate the department name while displaying the employee. Paginate the output.
+
+You can choose to use LINQ or SP for your actions
+
+Note: Password has to be encrypted 
