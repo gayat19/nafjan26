@@ -58,8 +58,7 @@
               "RelativeToolTip": "FirstAPI\\Contexts\\ClinicContext.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAA1wB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T07:10:46.325Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-18T07:10:46.325Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "FirstAPI\\Services\\DoctorServiceV1.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAAwD8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T07:07:57.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-18T07:07:57.182Z"
             },
             {
               "$type": "Document",
@@ -96,8 +94,7 @@
               "RelativeToolTip": "FirstAPI\\Controllers\\DoctorController.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAYwCIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T05:25:09.727Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-18T05:25:09.727Z"
             },
             {
               "$type": "Document",
@@ -109,8 +106,7 @@
               "RelativeToolTip": "FirstAPI\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T05:24:44.037Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-18T05:24:44.037Z"
             },
             {
               "$type": "Document",
@@ -144,7 +140,7 @@
               "RelativeDocumentMoniker": "FirstAPI\\appsettings.json",
               "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day12\\FirstAPISolution\\FirstAPI\\appsettings.json",
               "RelativeToolTip": "FirstAPI\\appsettings.json",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAABbAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-02-18T05:04:33.555Z",
               "EditorCaption": ""
