@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExceptionFilterAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a3828cae6512f8d2882aa0ee76c53f9d986494c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59a20fc078819fba2a047c1a2f2cce71fbb77f22")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExceptionFilterAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExceptionFilterAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
