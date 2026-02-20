@@ -8,7 +8,7 @@ namespace ExceptionFilterAPI.Models.DTOs
         public string Name { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "Date of Birth is required.")]
-        public DateOnly DateOfBirth { get; set; }
+        public DateTime DateOfBirth { get; set; }
 
         [Required(ErrorMessage = "Phone number is required.")]
         [Phone(ErrorMessage = "Invalid phone number format.")]

@@ -157,3 +157,5 @@ D:\Corp\Wintech\naf\2026\Participants\Day15\FilterSolution\InsuranceAppTesting\o
 D:\Corp\Wintech\naf\2026\Participants\Day15\FilterSolution\InsuranceAppTesting\obj\Debug\net8.0\InsuranceAppTesting.genruntimeconfig.cache
 D:\Corp\Wintech\naf\2026\Participants\Day15\FilterSolution\InsuranceAppTesting\obj\Debug\net8.0\ref\InsuranceAppTesting.dll
 D:\Corp\Wintech\naf\2026\Participants\Day15\FilterSolution\InsuranceAppTesting\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\Corp\Wintech\naf\2026\Participants\Day15\FilterSolution\InsuranceAppTesting\bin\Debug\net8.0\Castle.Core.dll
+D:\Corp\Wintech\naf\2026\Participants\Day15\FilterSolution\InsuranceAppTesting\bin\Debug\net8.0\Moq.dll
