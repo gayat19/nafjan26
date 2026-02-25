@@ -23,15 +23,15 @@ namespace ExceptionFilterAPI.Controllers
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
-            //return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-            //{
-            //    Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            //    TemperatureC = Random.Shared.Next(-20, 55),
-            //    Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-            //})
-            //.ToArray();
-            _logger.LogInformation("Request for get in WeatherForecast");
-            throw new Exception("This is a test exception to demonstrate the custom exception filter.");
+            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            {
+                Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
+                TemperatureC = Random.Shared.Next(-20, 55),
+                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
+            })
+            .ToArray();
+            //_logger.LogInformation("Request for get in WeatherForecast");
+            //throw new Exception("This is a test exception to demonstrate the custom exception filter.");
         }
     }
 }

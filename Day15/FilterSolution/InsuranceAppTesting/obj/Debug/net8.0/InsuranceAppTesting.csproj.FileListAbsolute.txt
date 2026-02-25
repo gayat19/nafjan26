@@ -159,3 +159,5 @@ D:\Corp\Wintech\naf\2026\Participants\Day15\FilterSolution\InsuranceAppTesting\o
 D:\Corp\Wintech\naf\2026\Participants\Day15\FilterSolution\InsuranceAppTesting\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
 D:\Corp\Wintech\naf\2026\Participants\Day15\FilterSolution\InsuranceAppTesting\bin\Debug\net8.0\Castle.Core.dll
 D:\Corp\Wintech\naf\2026\Participants\Day15\FilterSolution\InsuranceAppTesting\bin\Debug\net8.0\Moq.dll
+D:\Corp\Wintech\naf\2026\Participants\Day15\FilterSolution\InsuranceAppTesting\bin\Debug\net8.0\AutoMapper.dll
+D:\Corp\Wintech\naf\2026\Participants\Day15\FilterSolution\InsuranceAppTesting\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

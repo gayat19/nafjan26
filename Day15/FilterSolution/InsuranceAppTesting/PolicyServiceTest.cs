@@ -1,4 +1,5 @@
-﻿using Castle.Core.Logging;
+﻿using AutoMapper;
+using Castle.Core.Logging;
 using ExceptionFilterAPI.Contexts;
 using ExceptionFilterAPI.Interfaces;
 using ExceptionFilterAPI.Models;
@@ -51,9 +52,20 @@ namespace InsuranceAppTesting
 
             Mock<ILogger<PolicyService>> loggerMock = new Mock<ILogger<PolicyService>>();
 
+            Mock<IMapper> mapperMock = new Mock<IMapper>();
+
+            mapperMock.Setup(m => m.Map<Customer>(It.IsAny<AddCustomerDto>()))
+                .Returns(new Customer
+                {
+                    Name = "Test",
+                    PhoneNumber = "23444442234",
+                    Email = "test@test.com",
+                    DateOfBirth = new DateTime(2000, 3, 3)
+                });
+
             IPolicyService policyService = new  PolicyService(
                 _customerRepository, _policyRepository, 
-                _insuranceRepositoryMock.Object,loggerMock.Object);
+                _insuranceRepositoryMock.Object,loggerMock.Object,mapperMock.Object);
             AddPolicyRequestDto newPolicy = new AddPolicyRequestDto
             {
                 Customer = new AddCustomerDto

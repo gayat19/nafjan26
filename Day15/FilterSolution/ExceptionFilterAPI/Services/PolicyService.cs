@@ -1,4 +1,5 @@
-﻿using ExceptionFilterAPI.Interfaces;
+﻿using AutoMapper;
+using ExceptionFilterAPI.Interfaces;
 using ExceptionFilterAPI.Models;
 using ExceptionFilterAPI.Models.DTOs;
 
@@ -10,17 +11,20 @@ namespace ExceptionFilterAPI.Services
         private readonly IRepository<int, Policy> _policyRepository;
         private readonly IRepository<int, Insurance> _insuranceRepository;
         private readonly ILogger<PolicyService> _logger;
+        private readonly IMapper _mapper;
 
         public PolicyService(IRepository<int,Customer> customerRepository,
             IRepository<int, Policy> policyRepository,
             IRepository<int, Insurance> insuranceRepository,
-            ILogger<PolicyService> logger
+            ILogger<PolicyService> logger,
+            IMapper mapper
             ) 
         {
             _customerRepository = customerRepository;
             _policyRepository = policyRepository;
             _insuranceRepository = insuranceRepository;
             _logger = logger;
+            _mapper = mapper;
 
         }
         public async Task<AddPolicyResponseDto> AddPolicyAsync(AddPolicyRequestDto policy)
@@ -38,14 +42,15 @@ namespace ExceptionFilterAPI.Services
             }
             if (policy.Customer != null)
             {
-                var customer = new Customer
-                {
-                    Name = policy.Customer.Name,
-                    DateOfBirth = policy.Customer.DateOfBirth,
-                    PhoneNumber = policy.Customer.Phone,
-                    Email = policy.Customer.Email,
+                //var customer = new Customer
+                //{
+                //    Name = policy.Customer.Name,
+                //    DateOfBirth = policy.Customer.DateOfBirth,
+                //    PhoneNumber = policy.Customer.Phone,
+                //    Email = policy.Customer.Email,
 
-                };
+                //};
+                var customer = _mapper.Map<Customer>(policy.Customer);
                 customer = await _customerRepository.AddAsync(customer);
                 if (customer == null)
                     throw new Exception("Unable to add customer so unable to add policy");
