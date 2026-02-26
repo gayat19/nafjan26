@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day19\\ConnectToMongoSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E1F54881-613B-4753-A46B-A5D47239DFAA}|ConnectToMongoAPI\\ConnectToMongoAPI.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day19\\connecttomongosolution\\connecttomongoapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1F54881-613B-4753-A46B-A5D47239DFAA}|ConnectToMongoAPI\\ConnectToMongoAPI.csproj|solutionrelative:connecttomongoapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1F54881-613B-4753-A46B-A5D47239DFAA}|ConnectToMongoAPI\\ConnectToMongoAPI.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day19\\connecttomongosolution\\connecttomongoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1F54881-613B-4753-A46B-A5D47239DFAA}|ConnectToMongoAPI\\ConnectToMongoAPI.csproj|solutionrelative:connecttomongoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1F54881-613B-4753-A46B-A5D47239DFAA}|ConnectToMongoAPI\\ConnectToMongoAPI.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day19\\connecttomongosolution\\connecttomongoapi\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1F54881-613B-4753-A46B-A5D47239DFAA}|ConnectToMongoAPI\\ConnectToMongoAPI.csproj|solutionrelative:connecttomongoapi\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1F54881-613B-4753-A46B-A5D47239DFAA}|ConnectToMongoAPI\\ConnectToMongoAPI.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day19\\connecttomongosolution\\connecttomongoapi\\contexts\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1F54881-613B-4753-A46B-A5D47239DFAA}|ConnectToMongoAPI\\ConnectToMongoAPI.csproj|solutionrelative:connecttomongoapi\\contexts\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1F54881-613B-4753-A46B-A5D47239DFAA}|ConnectToMongoAPI\\ConnectToMongoAPI.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day19\\connecttomongosolution\\connecttomongoapi\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1F54881-613B-4753-A46B-A5D47239DFAA}|ConnectToMongoAPI\\ConnectToMongoAPI.csproj|solutionrelative:connecttomongoapi\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1F54881-613B-4753-A46B-A5D47239DFAA}|ConnectToMongoAPI\\ConnectToMongoAPI.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day19\\connecttomongosolution\\connecttomongoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E1F54881-613B-4753-A46B-A5D47239DFAA}|ConnectToMongoAPI\\ConnectToMongoAPI.csproj|solutionrelative:connecttomongoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1F54881-613B-4753-A46B-A5D47239DFAA}|ConnectToMongoAPI\\ConnectToMongoAPI.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day19\\connecttomongosolution\\connecttomongoapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1F54881-613B-4753-A46B-A5D47239DFAA}|ConnectToMongoAPI\\ConnectToMongoAPI.csproj|solutionrelative:connecttomongoapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1F54881-613B-4753-A46B-A5D47239DFAA}|ConnectToMongoAPI\\ConnectToMongoAPI.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day19\\connecttomongosolution\\connecttomongoapi\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1F54881-613B-4753-A46B-A5D47239DFAA}|ConnectToMongoAPI\\ConnectToMongoAPI.csproj|solutionrelative:connecttomongoapi\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day19\\ConnectToMongoSolution\\ConnectToMongoAPI\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "ConnectToMongoAPI\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day19\\ConnectToMongoSolution\\ConnectToMongoAPI\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "ConnectToMongoAPI\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAIwBcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T06:11:33.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day19\\ConnectToMongoSolution\\ConnectToMongoAPI\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "ConnectToMongoAPI\\Repositories\\ProductRepository.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day19\\ConnectToMongoSolution\\ConnectToMongoAPI\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "ConnectToMongoAPI\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwBwAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T06:04:04.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day19\\ConnectToMongoSolution\\ConnectToMongoAPI\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "ConnectToMongoAPI\\Interfaces\\IRepository.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day19\\ConnectToMongoSolution\\ConnectToMongoAPI\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "ConnectToMongoAPI\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T06:03:16.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MongoDbSettings.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day19\\ConnectToMongoSolution\\ConnectToMongoAPI\\MongoDbSettings.cs",
+              "RelativeDocumentMoniker": "ConnectToMongoAPI\\MongoDbSettings.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day19\\ConnectToMongoSolution\\ConnectToMongoAPI\\MongoDbSettings.cs",
+              "RelativeToolTip": "ConnectToMongoAPI\\MongoDbSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T05:27:26.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day19\\ConnectToMongoSolution\\ConnectToMongoAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ConnectToMongoAPI\\Program.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day19\\ConnectToMongoSolution\\ConnectToMongoAPI\\Program.cs",
+              "RelativeToolTip": "ConnectToMongoAPI\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T05:26:23.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day19\\ConnectToMongoSolution\\ConnectToMongoAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ConnectToMongoAPI\\appsettings.json",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day19\\ConnectToMongoSolution\\ConnectToMongoAPI\\appsettings.json",
+              "RelativeToolTip": "ConnectToMongoAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-26T05:25:50.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MongoDbContext.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day19\\ConnectToMongoSolution\\ConnectToMongoAPI\\Contexts\\MongoDbContext.cs",
+              "RelativeDocumentMoniker": "ConnectToMongoAPI\\Contexts\\MongoDbContext.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day19\\ConnectToMongoSolution\\ConnectToMongoAPI\\Contexts\\MongoDbContext.cs",
+              "RelativeToolTip": "ConnectToMongoAPI\\Contexts\\MongoDbContext.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T05:21:06.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day19\\ConnectToMongoSolution\\ConnectToMongoAPI\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ConnectToMongoAPI\\Models\\Product.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day19\\ConnectToMongoSolution\\ConnectToMongoAPI\\Models\\Product.cs",
+              "RelativeToolTip": "ConnectToMongoAPI\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T05:17:17.791Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
