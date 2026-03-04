@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            #container{
+                display: flex;
+                gap: 10px;
+                width: 100%;
+                flex-direction: row; 
+                flex-wrap: nowrap;              
+            }
+            .item{
+                width: 25%;
+                height: 15%;
+                margin: 2%;
+                padding: 2%;
+                text-align: center;
+            }
+            .item1{
+               flex: 0 0 20%;
+               order:3;
+            }
+            .item2{
+                flex:1;
+                order:2;
+            }
+            /* .item3{
+                flex: 0 0 30%;
+                order:1;
+            } */
+           
+        </style>
+    </head>
+    <body>
+        <section id="container">
+            <section
+             style="background-color: bisque;color: brown;"
+                class="item item1"> The flex-wrap property specifies whether the flexible items should wrap or not.
+
+                Note: If the elements are not flexible items, the flex-wrap property has no effect
+            </section>
+            <section
+            style="background-color: aqua;color: black;"
+             class="item item2"> The flex-wrap property specifies whether the flexible items should wrap or not.
+
+Note: If the elements are not flexible items, the flex-wrap property has no effect
+            </section>
+   
+            <!-- <section
+                style="background-color: lightpink;color: maroon;"
+                class="item item3"> The flex-wrap property specifies whether the flexible items should wrap or not.
+
+                Note: If the elements are not flexible items, the flex-wrap property has no effect
+            </section> -->
+    </section>
+    </body>
+</html>
