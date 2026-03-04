@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    </head>
+    <body>
+        <script>
+     
+            var getProductsFromDummyJson = () => {
+                const response = fetch('https://dummyjson.com/products')
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data.products);
+                    putProductsInCard(data.products);
+                })
+                .catch(error => console.error('Error:', error));
+            }
+                var putProductsInCard = (products) => {
+                    var row = document.createElement("div");
+                    row.className = "row";
+                    products.forEach(product => {
+                        var col = document.createElement("div");
+                        col.className = "col-4";
+                        var card = document.createElement("div");
+                        card.className = "card";
+                        var img = document.createElement("img");
+                        img.src = product.thumbnail;
+                        img.className = "card-img-top";
+                        var cardBody = document.createElement("div");
+                        cardBody.className = "card-body";
+                        var title = document.createElement("h5");
+                        title.className = "card-title";
+                        title.textContent = product.title;
+                        var price = document.createElement("button");
+                        price.className = "btn btn-primary";
+                        price.textContent = "But for $" + product.price;
+                        cardBody.appendChild(title);
+                        cardBody.appendChild(price);
+                        card.appendChild(img);
+                        card.appendChild(cardBody);
+                        col.appendChild(card);
+                        row.appendChild(col);
+                    });
+                    document.body.appendChild(row);
+                }   
+            getProductsFromDummyJson();
+            
+        </script>
+    </body>
+</html>

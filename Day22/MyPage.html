@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+</head>
+<body>
+    <h1>Welcome to My Page</h1>
+    <p>This is a simple HTML page.</p>
+    <table>
+        <tr>
+            <td>ID</td>
+            <td>
+                <input type="text" id="id" name="id">
+            </td>
+        </tr>
+        <tr>
+            <td>Title</td>
+            <td>
+                <input type="text" id="title" name="title">
+            </td>
+        </tr>
+        <tr>
+            <td>Price</td>
+            <td>
+                <input type="text" id="price" name="price">
+            </td>
+        </tr>
+            <tr>
+            <td>Description</td>
+            <td>
+                <input type="text" id="description" name="description"> 
+            </td>
+        </tr>
+        <tr>
+            <td>Category</td>
+            <td>
+                <input type="text" id="category" name="category">
+            </td>
+        </tr>
+        <tr>
+            <td>Image</td>
+            <td>
+                <input type="text" id="image" name="image">
+            </td>
+        </tr>
+    </table>
+    <button onclick="callPostAPI()">Print </button>
+    <script>
+        var product = {
+            "id": 4,
+            "title": "Test",
+            "price": 23,
+            "description": "Test fro Post",
+            "category": "tc",
+            "image": "http://example.com"
+            };
+        var mapValuesFromInput = ()=>{
+            product.id = document.getElementById("id").value;
+            product.title = document.getElementById("title").value;
+            product.price = document.getElementById("price").value;
+            product.description = document.getElementById("description").value;
+            product.category = document.getElementById("category").value;
+            product.image = document.getElementById("image").value;
+        }
+        var callPostAPI = ()=>{
+            mapValuesFromInput();
+            fetch('https://fakestoreapi.com/products', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(product)
+            })
+            .then(response => response.json())
+            .then(data => {
+               console.log(data.title);
+                var p = document.createElement("p");
+                p.textContent = data.title + " is added successfully with id " + data.id;
+                document.body.appendChild(p);
+            })
+            .catch(error => console.error('Error:', error));
+        }
+  
+    </script>
+</body>
+</html>
