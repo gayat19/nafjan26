@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { LoginModel } from '../models/login.model';
 import { FormsModule } from '@angular/forms';
 import { APIService } from '../services/api.service';
@@ -11,7 +11,8 @@ import { APIService } from '../services/api.service';
 })
 export class Login {
   loginModel:LoginModel;
-  constructor(private apiService: APIService) {
+  private apiService: APIService = inject(APIService);
+  constructor() {
     this.loginModel = new LoginModel();
   }
   
@@ -19,10 +20,12 @@ export class Login {
     console.log(this.loginModel);
     this.apiService.apiLogin(this.loginModel).subscribe({
       next:(response)=>{
-        console.log(response);
+        if(response){
+          alert('Login successful!');
+        }
       },
       error:(error)=>{
-        console.error(error);
+        alert('Login failed: ' + error.message);
       },
       complete:()=>{
         console.log('Login request completed');
