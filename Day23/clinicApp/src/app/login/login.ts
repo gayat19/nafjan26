@@ -19,8 +19,9 @@ export class Login {
   login(){
     console.log(this.loginModel);
     this.apiService.apiLogin(this.loginModel).subscribe({
-      next:(response)=>{
+      next:(response:any)=>{
         if(response){
+          sessionStorage.setItem('token', response?.token);
           alert('Login successful!');
         }
       },

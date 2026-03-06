@@ -15,4 +15,17 @@ export class APIService {
     apiGetProducts(){
         return this.http.get('https://dummyjson.com/products');
     }
+    apiGetDoctors(){
+        // var token = sessionStorage.getItem('token');
+        // const headers ={
+        //     'Authorization': `Bearer ${token}`,
+        //     'Content-Type': 'application/json'
+        // }
+        return this.http.post
+        ('http://localhost:5000/api/Doctor/GetDoctors', 
+            {"pageNumber": 1,
+            "pageSize": 3}
+          
+        );
+    }
 }
