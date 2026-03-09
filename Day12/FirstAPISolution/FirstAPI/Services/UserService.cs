@@ -39,6 +39,7 @@ namespace FirstAPI.Services
             var token = _tokenService.CreateToken(tokenpaload);
             return new CheckUserResponseDto
             {
+                Username = user.Username,
                 Token = token
             };
         }

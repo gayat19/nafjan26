@@ -5,10 +5,11 @@ import { Login } from './login/login';
 import { Products } from './products/products';
 import { Doctors } from './doctors/doctors';
 import { Childsample } from './childsample/childsample';
+import { Menu } from './menu/menu';
 
 @Component({
   selector: 'app-root',
-  imports: [Products,Childsample],
+  imports: [Products,Childsample,Menu,Login],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
