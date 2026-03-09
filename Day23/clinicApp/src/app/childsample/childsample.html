@@ -1,5 +1,14 @@
 <div>
     <h2>This is the child</h2>
+   @if(isDisplay)
+    {
+        <div>
+            This is div1
+        </div>
+    }
+     <div [hidden]="!isDisplay">
+            This is div2
+        </div>
     <input [value]="username()"/>
     <button (click)="updateUsername()">Update Username</button>
 </div>

@@ -9,8 +9,10 @@ import { Component, EventEmitter, input, output } from '@angular/core';
 export class Childsample {
   username = input<string>("Hello");
   nameChange = output<string>();
+  isDisplay = true;
 
   updateUsername(){
+    this.isDisplay = !this.isDisplay;
    alert("Username updated to: Ramu");
     this.nameChange.emit("Ramu");
   }
