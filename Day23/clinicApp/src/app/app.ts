@@ -4,10 +4,11 @@ import { Doctor } from './doctor/doctor';
 import { Login } from './login/login';
 import { Products } from './products/products';
 import { Doctors } from './doctors/doctors';
+import { Childsample } from './childsample/childsample';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,Login,Doctors],
+  imports: [Products],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
