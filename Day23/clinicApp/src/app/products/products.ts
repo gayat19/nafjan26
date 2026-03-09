@@ -13,8 +13,12 @@ import { Product } from '../product/product';
 export class Products {
   products = signal<ProductModel[]>([]);
   productService = inject(APIService);
+  count = signal(0);
   constructor(){
     
+  }
+  updateCount(value: number){
+    this.count.update(count => count + value);
   }
   getProducts(){
     console.log("Hello")

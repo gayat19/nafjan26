@@ -1,4 +1,9 @@
 <h1>
-  Welcome to the Clinic App
+  Welcome to the Clinic App - {{ data() }}
 </h1>
+
+
+<app-childsample (nameChange)="handleNameChange($event)">
+
+</app-childsample>
 <app-products></app-products>

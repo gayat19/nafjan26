@@ -1,12 +1,16 @@
 <p>products works!</p>
 <button (click)="getProducts()">Get All Products</button>
+<button type="button" class="btn btn-primary">
+ <img src="images/cart.png" alt="Cart Image"/><span class="badge badge-light">{{count()}}</span>
+
+</button>
 @if(products().length > 0)
 {
    <div>
     @for(product of products();track product.id)
     {
         <div>
-            <app-product [productData]="product"></app-product>
+            <app-product [productData]="product" (addToCartClick)="updateCount($event)"></app-product>
         </div>
     }
    </div>

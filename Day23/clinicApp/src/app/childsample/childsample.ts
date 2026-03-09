@@ -1,4 +1,4 @@
-import { Component, input } from '@angular/core';
+import { Component, EventEmitter, input, output } from '@angular/core';
 
 @Component({
   selector: 'app-childsample',
@@ -8,4 +8,10 @@ import { Component, input } from '@angular/core';
 })
 export class Childsample {
   username = input<string>("Hello");
+  nameChange = output<string>();
+
+  updateUsername(){
+   alert("Username updated to: Ramu");
+    this.nameChange.emit("Ramu");
+  }
 }

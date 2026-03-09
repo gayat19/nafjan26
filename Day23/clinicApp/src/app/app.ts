@@ -8,10 +8,15 @@ import { Childsample } from './childsample/childsample';
 
 @Component({
   selector: 'app-root',
-  imports: [Products],
+  imports: [Products,Childsample],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
 export class App {
   protected readonly title = signal('clinicApp');
+  data = signal("Hello World");
+  
+  handleNameChange(newName: string) {
+    this.data.set(newName);
+  }
 }

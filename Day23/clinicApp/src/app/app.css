@@ -2,3 +2,9 @@ h1{
     background-color: lightblue;
     text-align: center;
 }
+img{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
