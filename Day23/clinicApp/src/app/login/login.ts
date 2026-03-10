@@ -1,12 +1,12 @@
 import { Component, inject, signal } from '@angular/core';
 import { LoginModel } from '../models/login.model';
-import { FormsModule } from '@angular/forms';
+import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { APIService } from '../services/api.service';
 import { myObservable, userLogin } from '../dynamicCommunication/userObservable';
 
 @Component({
   selector: 'app-login',
-  imports: [FormsModule],
+  imports: [FormsModule,ReactiveFormsModule],
   templateUrl: './login.html',
   styleUrl: './login.css',
 })
@@ -14,13 +14,37 @@ export class Login {
   loginModel:LoginModel;
   myObservableData = signal("Not Started");
   private apiService: APIService = inject(APIService);
+
+  loginForm:FormGroup;
+
   constructor() {
     this.loginModel = new LoginModel();
+    this.loginForm = new FormGroup({
+      username: new FormControl('',[Validators.required]),
+      password: new FormControl('',[Validators.required,
+        Validators.minLength(6)
+      ])
+    });
+  }
+
+  
+  public get username() : any {
+    return this.loginForm.get('username');
   }
   
+    public get password() : any {
+    return this.loginForm.get('password');
+  }
+
+
   login(){
+    console.log(this.username);
     console.log(this.loginModel);
-    
+    if(this.loginForm.invalid)
+    {
+      alert('Please fill in all required fields with valid data.');
+      return;
+    }
     this.apiService.apiLogin(this.loginModel).subscribe({
       next:(response:any)=>{
         if(response){

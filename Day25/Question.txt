@@ -1,0 +1,50 @@
+Objective
+
+Build an Angular app where students can:
+
+search a city name
+
+fetch weather using a free API
+
+store the last searched city using BehaviorSubject
+
+show the selected city in multiple components
+
+display current weather details
+--------------------------------
+
+
+Functional requirements
+
+User types a city name.
+
+App calls geocoding API to get latitude and longitude.
+
+App calls forecast API using those coordinates.
+
+App displays:
+
+city name
+
+temperature
+
+wind speed
+
+weather code
+
+Header must show the last searched city using BehaviorSubject.
+--------------------------------------
+Components and services
+
+Create these:
+
+HeaderComponent
+WeatherSearchComponent
+WeatherDisplayComponent
+WeatherService
+CityStateService
+
+1. Geocoding API
+https://geocoding-api.open-meteo.com/v1/search?name=Chennai&count=1
+2. Forecast API
+https://api.open-meteo.com/v1/forecast?latitude=13.08&longitude=80.27&current_weather=true

@@ -1,10 +1,32 @@
 <section>
     <h1>{{ myObservableData() }}</h1>
-    
+<!--     
     <label for="username">Username:</label>
     <input type="text" id="username" [(ngModel)]="loginModel.username" name="username">
     <label for="password">Password:</label>
     <input type="password" id="password" [(ngModel)]="loginModel.password" name="password">
     <button (click)="login()">Login</button>
-    <button (click)="reset()">Reset</button>
+    <button (click)="reset()">Reset</button> -->
+    <form [formGroup]="loginForm" (ngSubmit)="login()">
+        <label for="username">Username:</label>
+        <input formControlName="username" id="username" type="text">
+        @if (username.touched && username.invalid) {
+             <span class="alert alert-danger">Username cannot be empty</span>
+        }
+       
+        <label for="password">Password:</label>
+        <input formControlName="password" id="password" type="password">
+          @if (password.touched && password.invalid) {
+             <span>
+                @if (password.errors.required) {
+                    <span class="alert alert-danger">Password cannot be empty</span>
+                }
+                 @if (password.errors.minlength) {
+                    <span class="alert alert-danger">Password must be at least 6 characters long</span>
+                }
+             </span>
+        }
+        <button type="submit">Login</button>
+        <button type="button" >Reset</button>
+    </form>  
 </section>
