@@ -8,14 +8,14 @@
     <button (click)="login()">Login</button>
     <button (click)="reset()">Reset</button> -->
     <form [formGroup]="loginForm" (ngSubmit)="login()">
-        <label for="username">Username:</label>
-        <input formControlName="username" id="username" type="text">
+        <label class="form-control" for="username">Username:</label>
+        <input class="form-control" formControlName="username" id="username" type="text">
         @if (username.touched && username.invalid) {
              <span class="alert alert-danger">Username cannot be empty</span>
         }
        
-        <label for="password">Password:</label>
-        <input formControlName="password" id="password" type="password">
+        <label class="form-control" for="password">Password:</label>
+        <input class="form-control" formControlName="password" id="password" type="password">
           @if (password.touched && password.invalid) {
              <span>
                 @if (password.errors.required) {

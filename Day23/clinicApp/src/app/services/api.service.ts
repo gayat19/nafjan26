@@ -15,6 +15,9 @@ export class APIService {
     apiGetProducts(){
         return this.http.get('https://dummyjson.com/products');
     }
+    apiGetSearchedProducts(searchText:string){
+        return this.http.get('https://dummyjson.com/products/search?q=' + searchText);
+    }
     apiGetDoctors(){
         // var token = sessionStorage.getItem('token');
         // const headers ={
