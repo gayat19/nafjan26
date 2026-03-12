@@ -15,6 +15,9 @@ export class APIService {
     apiGetProducts(){
         return this.http.get('https://dummyjson.com/products');
     }
+    apiGetProductById(id: number){
+        return this.http.get(`https://dummyjson.com/products/${id}`);
+    }
     apiGetSearchedProducts(searchText:string){
         return this.http.get('https://dummyjson.com/products/search?q=' + searchText);
     }

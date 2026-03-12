@@ -2,6 +2,7 @@ import { Component, inject, signal } from '@angular/core';
 import { APIService } from '../services/api.service';
 import { ProductModel } from '../models/product.model';
 import { Product } from '../product/product';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -14,11 +15,13 @@ export class Products {
   products = signal<ProductModel[]>([]);
   productService = inject(APIService);
   count = signal(0);
+  router = inject(Router);
   constructor(){
     
   }
   updateCount(value: number){
-    this.count.update(count => count + value);
+    this.count.update(count => count + 1);
+    this.router.navigateByUrl(`/products/${value}`);
   }
   getProducts(){
     console.log("Hello")

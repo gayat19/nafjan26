@@ -13,6 +13,6 @@ export class Product {
 
   addToCart(){
     alert(`Added ${this.productData().title} to cart!`);
-    this.addToCartClick.emit(1);
+    this.addToCartClick.emit(this.productData().id);
   }
 }
