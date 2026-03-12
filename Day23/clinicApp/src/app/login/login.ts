@@ -3,6 +3,7 @@ import { LoginModel } from '../models/login.model';
 import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { APIService } from '../services/api.service';
 import { myObservable, userLogin } from '../dynamicCommunication/userObservable';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -14,6 +15,7 @@ export class Login {
   loginModel:LoginModel;
   myObservableData = signal("Not Started");
   private apiService: APIService = inject(APIService);
+  private router = inject(Router);
 
   loginForm:FormGroup;
 
@@ -45,12 +47,15 @@ export class Login {
       alert('Please fill in all required fields with valid data.');
       return;
     }
+    this.loginModel.username = this.username.value;
+    this.loginModel.password = this.password.value;
     this.apiService.apiLogin(this.loginModel).subscribe({
       next:(response:any)=>{
         if(response){
           sessionStorage.setItem('token', response?.token);
           userLogin(response?.username);
           alert('Login successful!');
+          this.router.navigateByUrl('/doctors',{browserUrl:''});
         }
       },
       error:(error)=>{
