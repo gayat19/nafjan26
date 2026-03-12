@@ -3,10 +3,11 @@ import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import {  debounceTime, switchMap } from 'rxjs';
 import { APIService } from '../services/api.service';
 import { ProductModel } from '../models/product.model';
+import { Router, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-search-product',
-  imports: [ReactiveFormsModule],
+  imports: [ReactiveFormsModule,RouterOutlet],
   templateUrl: './search-product.html',
   styleUrl: './search-product.css',
 })
@@ -14,11 +15,15 @@ export class SearchProduct {
   searchForm:FormGroup;
   apiService = inject(APIService);
   products = signal<ProductModel[]>([]);
+  router = inject(Router);
 
   constructor() {
     this.searchForm = new FormGroup({
       productName: new FormControl('')
     });
+  }
+  showDetails(id:number){
+    this.router.navigateByUrl(`//search/${id}`);
   }
 
 public get productName() : any {

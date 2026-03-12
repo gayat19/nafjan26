@@ -10,13 +10,15 @@ import { APIService } from '../services/api.service';
   styleUrl: './product-details.css',
 })
 export class ProductDetails {
-  productId:number;
+  productId = signal(0)  ;
   product = signal<ProductModel>(new ProductModel())  ;
   router = inject(ActivatedRoute);
   productApi = inject(APIService);
   constructor() {
-    this.productId = this.router.snapshot.params['id'] as number;
-    this.productApi.apiGetProductById(this.productId).subscribe({
+    //this.productId = this.router.snapshot.params['id'] as number;
+      this.router.params.subscribe(params => {
+        this.productId.set( params['id'] as number)
+         this.productApi.apiGetProductById(this.productId()).subscribe({
       next:(response:any)=>{
         console.log(response);
         this.product.set(response);
@@ -25,6 +27,8 @@ export class ProductDetails {
         alert('Error fetching product details');
       }
     }); 
+      });
+    
     
   }
 }

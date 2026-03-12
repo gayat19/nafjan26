@@ -13,8 +13,13 @@
         <ul class="list-group">
              @for(product of products();track product.id)
              {
-                <li class="list-group-item">{{ product.title }}</li>
+                <li (click)="showDetails(product.id)" class="list-group-item">{{ product.title }}</li>
             }
         </ul>
+        
     }
 </div>
+<section class="mt-4">
+    <h2>Product Details</h2>
+    <router-outlet></router-outlet>
+</section>
