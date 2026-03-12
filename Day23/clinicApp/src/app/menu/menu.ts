@@ -1,9 +1,10 @@
 import { Component, signal } from '@angular/core';
 import { $userStatus, userLogout } from '../dynamicCommunication/userObservable';
+import { RouterLink } from "@angular/router";
 
 @Component({
   selector: 'app-menu',
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './menu.html',
   styleUrl: './menu.css',
 })
