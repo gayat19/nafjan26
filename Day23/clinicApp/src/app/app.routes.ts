@@ -6,11 +6,13 @@ import { Doctors } from './doctors/doctors';
 import { authGuard } from './guards/authguard';
 import { ProductDetails } from './product-details/product-details';
 import { Childsample } from './childsample/childsample';
+import { Payment } from './payment/payment';
 
 export const routes: Routes = [
     {path:'products',component:Products},
     {path:'products/:id',component:ProductDetails},
     {path:'login',component:Login},
+    {path:'',component:Payment},
     {path:'search',component:SearchProduct,children:[
         {path:':id',component:ProductDetails},
         {path:'child',component:Childsample}
