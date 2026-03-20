@@ -16,7 +16,7 @@ import { useNavigate } from "react-router-dom";
     },[]);
     const onBuyNowClick=(prod)=>{
         alert(`You have bought ${prod}`);
-        navigate("/cart");
+        navigate("/cart/"+prod);
     }
     const updateProducts=()=>{
         console.log("Before update - ",products);
