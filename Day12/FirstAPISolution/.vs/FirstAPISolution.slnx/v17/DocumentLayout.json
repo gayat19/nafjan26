@@ -7,12 +7,36 @@
       "RelativeMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day12\\firstapisolution\\firstapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day12\\firstapisolution\\firstapi\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day12\\firstapisolution\\firstapi\\services\\doctorservicev1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\services\\doctorservicev1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day12\\firstapisolution\\firstapi\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day12\\firstapisolution\\firstapi\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day12\\firstapisolution\\firstapi\\exceptions\\entitynotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\exceptions\\entitynotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day12\\firstapisolution\\firstapi\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day12\\firstapisolution\\firstapi\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day12\\firstapisolution\\firstapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day12\\firstapisolution\\firstapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day12\\firstapisolution\\firstapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day12\\firstapisolution\\firstapi\\services\\doctorservicev1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\services\\doctorservicev1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE525012-1722-9A70-4DDF-E0D06BC84F24}|FirstAPI\\FirstAPI.csproj|d:\\corp\\wintech\\naf\\2026\\participants\\day12\\firstapisolution\\firstapi\\contexts\\cliniccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,11 +66,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PasswordService.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day12\\FirstAPISolution\\FirstAPI\\Services\\PasswordService.cs",
+              "RelativeDocumentMoniker": "FirstAPI\\Services\\PasswordService.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day12\\FirstAPISolution\\FirstAPI\\Services\\PasswordService.cs",
+              "RelativeToolTip": "FirstAPI\\Services\\PasswordService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T10:42:28.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DoctorService.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day12\\FirstAPISolution\\FirstAPI\\Services\\DoctorService.cs",
+              "RelativeDocumentMoniker": "FirstAPI\\Services\\DoctorService.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day12\\FirstAPISolution\\FirstAPI\\Services\\DoctorService.cs",
+              "RelativeToolTip": "FirstAPI\\Services\\DoctorService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T10:42:19.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EntityNotFoundException.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day12\\FirstAPISolution\\FirstAPI\\Exceptions\\EntityNotFoundException.cs",
+              "RelativeDocumentMoniker": "FirstAPI\\Exceptions\\EntityNotFoundException.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day12\\FirstAPISolution\\FirstAPI\\Exceptions\\EntityNotFoundException.cs",
+              "RelativeToolTip": "FirstAPI\\Exceptions\\EntityNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T10:41:51.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day12\\FirstAPISolution\\FirstAPI\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "FirstAPI\\Repositories\\Repository.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day12\\FirstAPISolution\\FirstAPI\\Repositories\\Repository.cs",
+              "RelativeToolTip": "FirstAPI\\Repositories\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T10:41:23.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day12\\FirstAPISolution\\FirstAPI\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "FirstAPI\\Interfaces\\IRepository.cs",
+              "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day12\\FirstAPISolution\\FirstAPI\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "FirstAPI\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T10:41:13.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ClinicContext.cs",
               "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day12\\FirstAPISolution\\FirstAPI\\Contexts\\ClinicContext.cs",
               "RelativeDocumentMoniker": "FirstAPI\\Contexts\\ClinicContext.cs",
@@ -62,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "DoctorServiceV1.cs",
               "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day12\\FirstAPISolution\\FirstAPI\\Services\\DoctorServiceV1.cs",
               "RelativeDocumentMoniker": "FirstAPI\\Services\\DoctorServiceV1.cs",
@@ -70,11 +155,12 @@
               "RelativeToolTip": "FirstAPI\\Services\\DoctorServiceV1.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAAwD8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T07:07:57.182Z"
+              "WhenOpened": "2026-02-18T07:07:57.182Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "AuthenticationController.cs",
               "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day12\\FirstAPISolution\\FirstAPI\\Controllers\\AuthenticationController.cs",
               "RelativeDocumentMoniker": "FirstAPI\\Controllers\\AuthenticationController.cs",
@@ -86,19 +172,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "DoctorController.cs",
               "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day12\\FirstAPISolution\\FirstAPI\\Controllers\\DoctorController.cs",
               "RelativeDocumentMoniker": "FirstAPI\\Controllers\\DoctorController.cs",
               "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day12\\FirstAPISolution\\FirstAPI\\Controllers\\DoctorController.cs",
               "RelativeToolTip": "FirstAPI\\Controllers\\DoctorController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwBcAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwBcAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T05:25:09.727Z"
+              "WhenOpened": "2026-02-18T05:25:09.727Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day12\\FirstAPISolution\\FirstAPI\\Program.cs",
               "RelativeDocumentMoniker": "FirstAPI\\Program.cs",
@@ -110,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "UnAuthorizedException.cs",
               "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day12\\FirstAPISolution\\FirstAPI\\Exceptions\\UnAuthorizedException.cs",
               "RelativeDocumentMoniker": "FirstAPI\\Exceptions\\UnAuthorizedException.cs",
@@ -128,14 +215,14 @@
               "RelativeDocumentMoniker": "FirstAPI\\Services\\UserService.cs",
               "ToolTip": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day12\\FirstAPISolution\\FirstAPI\\Services\\UserService.cs",
               "RelativeToolTip": "FirstAPI\\Services\\UserService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAwwC0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvy0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-18T05:14:16.804Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day12\\FirstAPISolution\\FirstAPI\\appsettings.json",
               "RelativeDocumentMoniker": "FirstAPI\\appsettings.json",
@@ -147,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "TokenService.cs",
               "DocumentMoniker": "D:\\Corp\\Wintech\\naf\\2026\\Participants\\Day12\\FirstAPISolution\\FirstAPI\\Services\\TokenService.cs",
               "RelativeDocumentMoniker": "FirstAPI\\Services\\TokenService.cs",

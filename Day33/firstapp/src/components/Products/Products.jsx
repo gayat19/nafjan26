@@ -1,4 +1,5 @@
 import { useEffect,useState } from "react"
+import Product from "../Product/Product";
 
  export default function Products(){
     const [products,setProducts] = useState();
@@ -12,7 +13,9 @@ import { useEffect,useState } from "react"
             setProducts(data);
         })
     },[]);
-
+    const onBuyNowClick=(prod)=>{
+        alert(`You have bought ${prod}`);
+    }
     const updateProducts=()=>{
         console.log("Before update - ",products);
         setProducts([...products,"Test1"]);
@@ -22,7 +25,7 @@ import { useEffect,useState } from "react"
     <h1>Products Component</h1>
     {
         products?
-        products.map((product)=><p key={product.id}>{product.title}</p>)
+        products.map((product)=><Product onBuyNow={onBuyNowClick} key={product.id} prod={product}/>)
         :
         "Loading..."    
     }
