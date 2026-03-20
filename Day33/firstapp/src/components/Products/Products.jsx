@@ -1,10 +1,11 @@
 import { useEffect,useState } from "react"
 import Product from "../Product/Product";
+import { useNavigate } from "react-router-dom";
 
  export default function Products(){
     const [products,setProducts] = useState();
     console.log("Products Component Rendered");
-
+    const navigate = useNavigate();
     useEffect(()=>{
         console.log("Products Component Mounted");
         fetch("https://fakestoreapi.com/products")
@@ -15,6 +16,7 @@ import Product from "../Product/Product";
     },[]);
     const onBuyNowClick=(prod)=>{
         alert(`You have bought ${prod}`);
+        navigate("/cart");
     }
     const updateProducts=()=>{
         console.log("Before update - ",products);
